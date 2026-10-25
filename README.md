@@ -1,44 +1,45 @@
-# Pakla Hub · 2.5 Visual
+# Pakla Hub · 3.1 Studio
 
-Windows için kompakt neon oyun ve bakım merkezi.
+Windows için oyun, klip ve bakım merkezi.
 
-**[İlk kurulum için Pakla Hub'ı indir](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)**
+**[Pakla Hub’ı indir](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)**
 
-**2.1–2.4 kuruluysa:** Güncellemeler → Güncelleme ara → Patch'i yükle.
+2.1 ve üzeri kuruluysa Güncellemeler → Güncelleme ara → Patch yükle.
 
-## 2.5 ile gelenler
+## Tek bir ana alan
 
-- **Esnek görsel düzen:** Dar pencerede ikon menüsü ve tek sütun; geniş pencerede çok sütun. Araç kartları, canlı halka göstergeleri, hareketli kontrolcü sahnesi ve 160 ms hover geçişleri. Hareketler ayarlardan kapatılabilir.
-- **Kompakt ana ekran:** Beş ana menü, tek bakışta CPU/RAM/disk özeti, son başlatılanlar ve hızlı işlemler.
-- **Ctrl+K:** Araçlarını ve oyunlarını yazıp bul; ok tuşları ve Enter ile aç.
-- **Otomasyon:** Uygulama açıkken açılışta ve saatte bir, 7 günden eski yerel geçici dosyaların salt okunur taraması. Dosya silmez; 15 saniye sınırı vardır. Ayarlardan kapatılabilir.
-- **Seans araçları:** Rastgele oyun önerisi, son başlatılanlar ve isteğe bağlı oyun başlatınca küçülme. Seans sayacı yalnızca bu Hub oturumunda geçen süreyi ölçer; gerçek oyun süresi değildir.
-- **Neon açılış:** Bir saniyeden kısa ve atlanabilir animasyon. Ayarlar → Otomasyon bölümünden kapatılabilir.
-- **Game Shelf:** Kendi Windows `.lnk` veya sade Steam `.url` kısayollarını ekle. Kapak görseli, favori, arama ve sayfalama desteği.
-- **Temizlik raporları:** Bu sürümden itibaren tamamlanan/durdurulan temizliklerin dosya sayısını, silinen dosya boyutlarını ve atlananları gör; CSV kaydet.
-- **Bağlantı karşılaştırması:** Aynı hedef IP'nin saatlik/günlük özetlerini karşılaştır. Ping ortalaması alınan yanıt sayısıyla ağırlıklandırılır. Sınırlı özetler en fazla 60 gün saklanır.
-- **Ölçümlere dayalı öneriler:** Disk alanı, yeterli sayıda CPU/RAM örneği ve yanıtsız ping paketleri için eşik tabanlı öneriler. Değişiklik otomatik yapılmaz.
-- **Sürüm geçmişi:** Yerel kurulum/patch kayıtları ve sürüm notları. Önceki kayıtlar yalnızca mevcut güncelleme makbuzları/yedekleri varsa aktarılabilir.
+- Sabit ortak çubuk: oyun, klip ve uygulama araması; kayıt durumu, etkinlikler ve profil.
+- Kendi masan: sık kullandığın araçları ana alana sabitle.
+- Son kliplerin, oyun kısayolların, canlı CPU/RAM/disk bilgileri ve bakım araçların aynı yerde.
+- Neon yüzeyler, hareketli görseller, hover geçişleri ve dar pencereye uyarlanan menü. Animasyonlar kapatılabilir.
 
-Temizlik raporları, öneriler, başlangıç kayıtları, büyük dosyalar ve sürüm geçmişi **Araçlar** bölümündedir.
+## Klip stüdyosu ve profil
 
-## Önceki araçlar
+- Seçtiğin monitörü 720p / 30 FPS MP4 olarak kaydet. Kayıt elle başlatılır.
+- Ctrl+Shift+F8 ile son yaklaşık 15, 30 veya 60 saniyeyi sakla.
+- Yerel klip kütüphanesi: arama, favoriler, sıralama, ad düzenleme ve MP4 kopyası dışa aktarma.
+- Sistem tepsisinde çalışma, durdurma, kaydetme ve tamamen çıkış.
+- E-posta doğrulamalı kayıt/giriş, şifre sıfırlama, profil görseli, biyografi ve kapak rengi.
+- Profilde bu cihazdaki öne çıkan kliplerin. Klipler otomatik paylaşılmaz veya buluta yüklenmez.
 
-Canlı CPU/RAM/ağ grafikleri, büyük dosya bulucu, Windows başlangıç yönetimine geçiş, bağlantı geçmişi/izleme/CSV, neon temalar, kompakt görünüm, güncelleme bildirimi, uygulama kütüphanesi ve kaldırma.
+## Pakla araçların
 
-## Bilmen gerekenler
+Pakla Clean, Internet Booster, canlı sistem göstergeleri, bağlantı geçmişi, büyük dosya bulucu, başlangıç kayıtları, oyun ve uygulama kütüphanesi, temizlik raporları ve uygulama içi imzalı güncellemeler.
 
-- Windows ve .NET Framework 4.7+ gerekir. Kurulum exe'si Authenticode imzalı değildir; patch'ler RSA-SHA256 ile ayrıca doğrulanır.
-- Oyunlar otomatik taranmaz; yalnızca güvendiğin kısayolları kendin ekle. Kapaklar yerel PNG/JPG dosyalarından seçilir. Doğrudan oyun exe'si, ek başlatma parametresi, DLL, overlay veya işlem önceliği ayarı eklenmez.
-- Telemetri gönderilmez. Kütüphane, kapaklar, düzen, raporlar ve ölçümler bu bilgisayarda kalır; kaldırmada korunur.
-- Temizlik kalıcı siler. Büyük dosya aracının desteklenen kutuya taşıma işlemi ayrıdır; dosya listesini ve onayları incele.
-- Silinen dosya boyutu fiziksel boşalan disk alanıyla aynı olmayabilir.
-- Karşılaştırmalar yalnızca gerçekten alınmış ölçümleri kapsar; uygulama kapalıyken ölçüm yapılmaz. ICMP yanıt kaybı, internet kesintisi kanıtı değildir.
-- Oyunlara veya anti-cheat'e müdahale eden booster özelliği yoktur. FPS artışı veya ban olmayacağı garantisi sunulmaz.
-- 2.0 ve daha eski sürümler bir defalık yeni kurulum gerektirir.
+## Kullanım bilgileri
 
-Bu depo resmi kurulum ve imzalı güncelleme paketlerinin dağıtımı içindir.
+Windows x64 ve .NET Framework 4.7+ gerekir. Kaydedilen ekran masaüstünü ve bildirimleri de içerebilir. Mikrofon varsayılan olarak kapalıdır. Tampon 10 saniyelik parçalardan oluşur; parçalar arasında kısa kesintiler olabilir. Yaklaşık klip süresi eldeki görüntüye bağlıdır; tampon en fazla 256 MB tutulur. Kayıt için en az 1 GB boş alan gerekir.
+
+Oyunlar yalnızca kendin eklediğin güvenilir kısayollarla başlatılır. Oyun belleğine veya anti-cheat'e müdahale edilmez. Seans sayacı Hub açıkken geçen süreyi ölçer. Internet Booster gerçek ping/jitter ölçümleri sunar; FPS veya internet hızı artışı garantisi vermez.
+
+Temizlik ekranındaki kalıcı silme için dosya listesini inceleyip onay ver. Desteklenen büyük dosya ve klip kaldırmaları Geri Dönüşüm Kutusu'nu kullanır. Güncellemeler ve kaldırma kişisel verileri korur.
+
+Hesap ve profil için Supabase, doğrulama e-postaları için Brevo kullanılır. “Beni hatırla” oturum anahtarlarını Windows DPAPI ile korur; şifre yerelde saklanmaz. SMTP ve yönetici anahtarları uygulamaya dahil edilmez. Klipler, oyun kısayolları ve ölçümler cihazında tutulur.
 
 ## Yayın güvenliği
 
-2.5.0 yayın dosyalarının yerel Kaspersky 21.26 taramasında 11 nesne incelendi; 0 tespit, 0 şüphe ve 0 hata raporlandı. Sonuç belirtilen dosya özetleri ve tarama anı içindir; bütün ürünler için garanti değildir. Bu derleme Authenticode imzalı değildir. Ayrıntılar: [güvenlik notu](distribution/2.5.0/SECURITY.md), [dosya doğrulaması](distribution/2.5.0/release-verification.json), [tarama raporu](distribution/2.5.0/antivirus-report.txt).
+Patch paketleri RSA-SHA256 imzası ve dosya özetleriyle doğrulanır. Windows Authenticode yayıncı sertifikası henüz yoktur. Yerel antivirüs taraması ve dosya özetleri: [güvenlik notları](distribution/3.1.0/SECURITY.md), [doğrulama kaydı](distribution/3.1.0/release-verification.json), [tarama raporu](distribution/3.1.0/antivirus-report.txt). Sonuçlar yalnızca ilgili dosyalar ve tarama anı içindir.
+
+ScreenRecorderLib 7.0.1 MIT lisansıyla kullanılır; lisans uygulamanın kayıt çalışma zamanı klasörüne çıkarılır.
+
+Destek: **supportpakla@gmail.com**
