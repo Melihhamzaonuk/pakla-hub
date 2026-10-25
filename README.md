@@ -1,33 +1,35 @@
-# Pakla Hub · 2.2 Feature Drop
+# Pakla Hub · 2.3 Personal Hub
 
-Windows için neon tasarımlı uygulama ve bakım merkezi.
+Windows için kişiselleştirilebilir neon kontrol merkezi.
 
-**[Pakla Hub kurulumunu indir](https://raw.githubusercontent.com/Melihhamzaonuk/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)**
+**[İlk kurulum için Pakla Hub'ı indir](https://raw.githubusercontent.com/Melihhamzaonuk/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)**
 
-**2.1 kuruluysa:** Güncellemeler → Güncelleme ara → Patch'i yükle. Yeniden kurulum dosyası indirmek gerekmez.
+**2.1 veya 2.2 kuruluysa:** Güncellemeler → Güncelleme ara → Patch'i yükle.
 
-## 2.2 ile gelenler
+## 2.3 ile gelenler
 
-- **Live Dashboard:** CPU/RAM ve indirme/yükleme trafiğinin son 120 örneğini canlı grafiklerde izle; disk doluluğunu gör.
-- **Büyük Dosyalar:** Seçilen klasörde en büyük 500 dosyayı bul. Desteklenen belge, medya ve arşivleri onayınla Geri Dönüşüm Kutusu'na taşı.
-- **Başlangıç:** Run kayıtlarını ve Başlangıç klasörlerini incele; etkinleştirme/devre dışı bırakma için Windows'un kendi başlangıç ekranını aç.
-- **Bağlantı Geçmişi:** Son 500 ölçümü yerelde sakla, isteğe bağlı 30 saniye aralıklı izlemeyi başlat ve CSV olarak kaydet.
-- **Neon Studio:** Cyan, mor, kırmızı veya özel vurgu rengi; kompakt menü ve listeler. Tercihler saklanır.
-- **Güncelleme bildirimi:** Uygulama açıkken açılışta ve 6 saatte bir yeni sürümü kontrol eder. Paket yüklemek için kullanıcı onayı gerekir; kapatılabilir.
+- **Kişisel ana ekran:** Kart başlıklarını sürükleyerek sırala. Görünür kartları seç; düzen yerelde saklanır.
+- **Game Shelf:** Kendi Windows `.lnk` veya sade Steam `.url` kısayollarını ekle. Kapak görseli, favori, arama ve sayfalama desteği.
+- **Temizlik raporları:** Bu sürümden itibaren tamamlanan/durdurulan temizliklerin dosya sayısını, silinen dosya boyutlarını ve atlananları gör; CSV kaydet.
+- **Bağlantı karşılaştırması:** Aynı hedef IP'nin saatlik/günlük özetlerini karşılaştır. Ping ortalaması alınan yanıt sayısıyla ağırlıklandırılır. Sınırlı özetler en fazla 60 gün saklanır.
+- **Ölçümlere dayalı öneriler:** Disk alanı, yeterli sayıda CPU/RAM örneği ve yanıtsız ping paketleri için eşik tabanlı öneriler. Değişiklik otomatik yapılmaz.
+- **Sürüm geçmişi:** Yerel kurulum/patch kayıtları ve sürüm notları. Önceki kayıtlar yalnızca mevcut güncelleme makbuzları/yedekleri varsa aktarılabilir.
 
-## Diğer araçlar
+Temizlik raporları, öneriler, başlangıç kayıtları, büyük dosyalar ve sürüm geçmişi **Araçlar** bölümündedir.
 
-Pakla Clean, Internet Booster, uygulama kütüphanesi, imzalı Patch Center ve Ayarlar üzerinden kaldırma.
+## Önceki araçlar
+
+Canlı CPU/RAM/ağ grafikleri, büyük dosya bulucu, Windows başlangıç yönetimine geçiş, bağlantı geçmişi/izleme/CSV, neon temalar, kompakt görünüm, güncelleme bildirimi, uygulama kütüphanesi ve kaldırma.
 
 ## Bilmen gerekenler
 
 - Windows ve .NET Framework 4.7+ gerekir. Kurulum exe'si Authenticode imzalı değildir; patch'ler RSA-SHA256 ile ayrıca doğrulanır.
-- Büyük dosya taraması seçtiğin klasörle sınırlıdır. Sistem, program ve bilinen oyun klasörleri atlanır; bağlantılı dosya/klasörler izlenmez. 250.000 öğe sınırında kısmi sonuç gösterilir.
-- Kutudaki dosyalar alan kullanmaya devam eder. Windows kalıcı silme önerirse işlemi iptal et.
-- Başlangıç listesi tüm otomatik başlatma yöntemlerini kapsamaz ve Windows'ta kapatılmış kayıtları da içerebilir. Yönetim Windows'a bırakılır.
-- Bağlantı ölçümleri sadece sen başlatınca yapılır; ICMP engeli yanıtsızlığa neden olabilir. Anlık trafik bir hız testi değildir.
-- Telemetri gönderilmez. Kütüphane, tercihler ve bağlantı geçmişi bu bilgisayarda saklanır; kaldırmada korunur.
-- Sistem izleme salt okunurdur. Oyun işlemi önceliği değiştirme, bellek müdahalesi, DLL veya overlay özelliği yoktur. FPS artışı veya ban olmayacağı garantisi verilmez.
+- Oyunlar otomatik taranmaz; yalnızca güvendiğin kısayolları kendin ekle. Kapaklar yerel PNG/JPG dosyalarından seçilir. Doğrudan oyun exe'si, ek başlatma parametresi, DLL, overlay veya işlem önceliği ayarı eklenmez.
+- Telemetri gönderilmez. Kütüphane, kapaklar, düzen, raporlar ve ölçümler bu bilgisayarda kalır; kaldırmada korunur.
+- Temizlik kalıcı siler. Büyük dosya aracının desteklenen kutuya taşıma işlemi ayrıdır; dosya listesini ve onayları incele.
+- Silinen dosya boyutu fiziksel boşalan disk alanıyla aynı olmayabilir.
+- Karşılaştırmalar yalnızca gerçekten alınmış ölçümleri kapsar; uygulama kapalıyken ölçüm yapılmaz. ICMP yanıt kaybı, internet kesintisi kanıtı değildir.
+- Oyunlara veya anti-cheat'e müdahale eden booster özelliği yoktur. FPS artışı veya ban olmayacağı garantisi sunulmaz.
 - 2.0 ve daha eski sürümler bir defalık yeni kurulum gerektirir.
 
-Bu depo resmi kurulum ve güncelleme dosyalarının dağıtımı içindir.
+Bu depo resmi kurulum ve imzalı güncelleme paketlerinin dağıtımı içindir.

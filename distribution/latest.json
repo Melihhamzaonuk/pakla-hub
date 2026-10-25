@@ -1,6 +1,6 @@
 {
-  "Version": "2.2.0",
-  "Url": "https://raw.githubusercontent.com/Melihhamzaonuk/pakla-hub/main/distribution/2.2.0/PaklaHub-2.2.0.pakpatch",
-  "Sha256": "330768930a2fb0367d7e295bdbe13f08d4b1285b02121a9fba26ae1fea439ccd",
-  "Notes": "2.2 Feature Drop: Canlı CPU/RAM/ağ grafikleri, büyük dosya bulucu, başlangıç kayıtları, bağlantı geçmişi ve CSV, neon temalar, kompakt görünüm ve yeni sürüm bildirimi."
+  "Version": "2.3.0",
+  "Url": "https://raw.githubusercontent.com/Melihhamzaonuk/pakla-hub/main/distribution/2.3.0/PaklaHub-2.3.0.pakpatch",
+  "Sha256": "97aab5d05570e88068bde0c3212f2f768151b7b63386c226c924833c4a01e72d",
+  "Notes": "2.3 Personal Hub: Sürükle-bırak ana ekran, oyun kapakları ve favoriler, temizlik raporları, saatlik/günlük bağlantı karşılaştırması, ölçümlere dayalı öneriler ve sürüm geçmişi."
 }
