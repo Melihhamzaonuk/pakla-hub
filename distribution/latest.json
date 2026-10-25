@@ -1,0 +1,6 @@
+{
+  "Version": "2.1.0",
+  "Url": "https://raw.githubusercontent.com/Melihhamzaonuk/pakla-hub/main/distribution/2.1.0/PaklaHub-2.1.0.pakpatch",
+  "Sha256": "f2392decc04cbcb10429c6371424d7531f0dc24d537701499ce6cb75cf2f6bda",
+  "Notes": "Uygulama içi patch merkezi, kaldırma ve yenilenen neon tasarım."
+}
