@@ -1,6 +1,6 @@
 {
-  "Version": "2.3.0",
-  "Url": "https://raw.githubusercontent.com/Melihhamzaonuk/pakla-hub/main/distribution/2.3.0/PaklaHub-2.3.0.pakpatch",
-  "Sha256": "97aab5d05570e88068bde0c3212f2f768151b7b63386c226c924833c4a01e72d",
-  "Notes": "2.3 Personal Hub: Sürükle-bırak ana ekran, oyun kapakları ve favoriler, temizlik raporları, saatlik/günlük bağlantı karşılaştırması, ölçümlere dayalı öneriler ve sürüm geçmişi."
+  "Version": "2.4.0",
+  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/2.4.0/PaklaHub-2.4.0.pakpatch",
+  "Sha256": "6fff4a104482c9b9d287404cea2806a0ec1b8d6c68f895893d83d00a03fddc7c",
+  "Notes": "Kompakt beşli menü, Ctrl+K hızlı arama, son başlatılan oyunlar, rastgele oyun seçimi, seans sayacı, otomatik salt okunur tarama ve kısa neon açılış. Güncelleme adresleri yeni hesaba taşındı."
 }

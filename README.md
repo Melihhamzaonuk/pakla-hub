@@ -1,14 +1,18 @@
-# Pakla Hub · 2.3 Personal Hub
+# Pakla Hub · 2.4 Compact
 
-Windows için kişiselleştirilebilir neon kontrol merkezi.
+Windows için kompakt neon oyun ve bakım merkezi.
 
-**[İlk kurulum için Pakla Hub'ı indir](https://raw.githubusercontent.com/Melihhamzaonuk/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)**
+**[İlk kurulum için Pakla Hub'ı indir](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)**
 
-**2.1 veya 2.2 kuruluysa:** Güncellemeler → Güncelleme ara → Patch'i yükle.
+**2.1, 2.2 veya 2.3 kuruluysa:** Güncellemeler → Güncelleme ara → Patch'i yükle.
 
-## 2.3 ile gelenler
+## 2.4 ile gelenler
 
-- **Kişisel ana ekran:** Kart başlıklarını sürükleyerek sırala. Görünür kartları seç; düzen yerelde saklanır.
+- **Kompakt ana ekran:** Beş ana menü, tek bakışta CPU/RAM/disk özeti, son başlatılanlar ve hızlı işlemler.
+- **Ctrl+K:** Araçlarını ve oyunlarını yazıp bul; ok tuşları ve Enter ile aç.
+- **Otomasyon:** Uygulama açıkken açılışta ve saatte bir, 7 günden eski yerel geçici dosyaların salt okunur taraması. Dosya silmez; 15 saniye sınırı vardır. Ayarlardan kapatılabilir.
+- **Seans araçları:** Rastgele oyun önerisi, son başlatılanlar ve isteğe bağlı oyun başlatınca küçülme. Seans sayacı yalnızca bu Hub oturumunda geçen süreyi ölçer; gerçek oyun süresi değildir.
+- **Neon açılış:** Bir saniyeden kısa ve atlanabilir animasyon. Ayarlar → Otomasyon bölümünden kapatılabilir.
 - **Game Shelf:** Kendi Windows `.lnk` veya sade Steam `.url` kısayollarını ekle. Kapak görseli, favori, arama ve sayfalama desteği.
 - **Temizlik raporları:** Bu sürümden itibaren tamamlanan/durdurulan temizliklerin dosya sayısını, silinen dosya boyutlarını ve atlananları gör; CSV kaydet.
 - **Bağlantı karşılaştırması:** Aynı hedef IP'nin saatlik/günlük özetlerini karşılaştır. Ping ortalaması alınan yanıt sayısıyla ağırlıklandırılır. Sınırlı özetler en fazla 60 gün saklanır.
