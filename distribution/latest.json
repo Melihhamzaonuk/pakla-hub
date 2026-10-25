@@ -1,6 +1,6 @@
 {
-  "Version": "2.4.0",
-  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/2.4.0/PaklaHub-2.4.0.pakpatch",
-  "Sha256": "6fff4a104482c9b9d287404cea2806a0ec1b8d6c68f895893d83d00a03fddc7c",
-  "Notes": "Kompakt beşli menü, Ctrl+K hızlı arama, son başlatılan oyunlar, rastgele oyun seçimi, seans sayacı, otomatik salt okunur tarama ve kısa neon açılış. Güncelleme adresleri yeni hesaba taşındı."
+  "Version": "2.5.0",
+  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/2.5.0/PaklaHub-2.5.0.pakpatch",
+  "Sha256": "09dd0b6b8751a1991f0a9d6d45b01a9e676ca52510ec2ec9a4875af5ce1cbe9a",
+  "Notes": "Pencereye uyarlanan görsel kartlar, dar ikon menüsü, canlı göstergeler, animasyonlu kontrolcü sahnesi, sabit süreli hover geçişleri ve esnek temizlik ekranı. Yayıncı dosya bilgileri ve standart kullanıcı manifesti eklendi. Bu derleme Authenticode sertifikası olmadan hazırlanmıştır; patch RSA-SHA256 ile doğrulanır."
 }

@@ -1,13 +1,14 @@
-# Pakla Hub · 2.4 Compact
+# Pakla Hub · 2.5 Visual
 
 Windows için kompakt neon oyun ve bakım merkezi.
 
 **[İlk kurulum için Pakla Hub'ı indir](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)**
 
-**2.1, 2.2 veya 2.3 kuruluysa:** Güncellemeler → Güncelleme ara → Patch'i yükle.
+**2.1–2.4 kuruluysa:** Güncellemeler → Güncelleme ara → Patch'i yükle.
 
-## 2.4 ile gelenler
+## 2.5 ile gelenler
 
+- **Esnek görsel düzen:** Dar pencerede ikon menüsü ve tek sütun; geniş pencerede çok sütun. Araç kartları, canlı halka göstergeleri, hareketli kontrolcü sahnesi ve 160 ms hover geçişleri. Hareketler ayarlardan kapatılabilir.
 - **Kompakt ana ekran:** Beş ana menü, tek bakışta CPU/RAM/disk özeti, son başlatılanlar ve hızlı işlemler.
 - **Ctrl+K:** Araçlarını ve oyunlarını yazıp bul; ok tuşları ve Enter ile aç.
 - **Otomasyon:** Uygulama açıkken açılışta ve saatte bir, 7 günden eski yerel geçici dosyaların salt okunur taraması. Dosya silmez; 15 saniye sınırı vardır. Ayarlardan kapatılabilir.
@@ -37,3 +38,7 @@ Canlı CPU/RAM/ağ grafikleri, büyük dosya bulucu, Windows başlangıç yönet
 - 2.0 ve daha eski sürümler bir defalık yeni kurulum gerektirir.
 
 Bu depo resmi kurulum ve imzalı güncelleme paketlerinin dağıtımı içindir.
+
+## Yayın güvenliği
+
+2.5.0 yayın dosyalarının yerel Kaspersky 21.26 taramasında 11 nesne incelendi; 0 tespit, 0 şüphe ve 0 hata raporlandı. Sonuç belirtilen dosya özetleri ve tarama anı içindir; bütün ürünler için garanti değildir. Bu derleme Authenticode imzalı değildir. Ayrıntılar: [güvenlik notu](distribution/2.5.0/SECURITY.md), [dosya doğrulaması](distribution/2.5.0/release-verification.json), [tarama raporu](distribution/2.5.0/antivirus-report.txt).

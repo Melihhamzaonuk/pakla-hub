@@ -1,0 +1,35 @@
+{
+  "version": "2.5.0",
+  "scanDate": "2026-10-25",
+  "scanner": "Kaspersky 21.26",
+  "processedObjects": 11,
+  "detections": 0,
+  "suspicions": 0,
+  "skipped": 0,
+  "errors": 0,
+  "scope": "Local release files; see antivirus-report.txt for vendor report",
+  "authenticode": "NotSigned; trusted publisher certificate not configured",
+  "patchSignature": "RSA-SHA256",
+  "files": [
+    {
+      "file": "PaklaHub.exe",
+      "sha256": "b26962edbda80beec12c249aecbbd5fcf751af375cea8d7beaf5bb231a4997e4",
+      "bytes": 288256
+    },
+    {
+      "file": "PaklaHub-Kurulum.exe",
+      "sha256": "56ca00962645c17accf2af8f28c81c702d673d858da73a60944ad89560f34b6a",
+      "bytes": 567296
+    },
+    {
+      "file": "PaklaHub-Updater.exe",
+      "sha256": "13ddb0855c9cb1957010271b8ecf0b8d66f486c2658fdcfbbd5b591527db06b1",
+      "bytes": 23040
+    },
+    {
+      "file": "PaklaHub-2.5.0.pakpatch",
+      "sha256": "09dd0b6b8751a1991f0a9d6d45b01a9e676ca52510ec2ec9a4875af5ce1cbe9a",
+      "bytes": 352301
+    }
+  ]
+}
