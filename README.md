@@ -38,7 +38,7 @@ Hesap ve profil için Supabase, doğrulama e-postaları için Brevo kullanılır
 
 ## Yayın güvenliği
 
-Patch paketleri RSA-SHA256 imzası ve dosya özetleriyle doğrulanır. Windows Authenticode yayıncı sertifikası henüz yoktur. Yerel antivirüs taraması ve dosya özetleri: [güvenlik notları](distribution/3.1.0/SECURITY.md), [doğrulama kaydı](distribution/3.1.0/release-verification.json), [tarama raporu](distribution/3.1.0/antivirus-report.txt). Sonuçlar yalnızca ilgili dosyalar ve tarama anı içindir.
+Patch paketleri RSA-SHA256 imzası ve dosya özetleriyle doğrulanır. Windows Authenticode yayıncı sertifikası henüz yoktur. Yerel antivirüs taraması ve dosya özetleri: [güvenlik notları](distribution/3.1.1/SECURITY.md), [doğrulama kaydı](distribution/3.1.1/release-verification.json), [tarama raporu](distribution/3.1.1/antivirus-report.txt). Sonuçlar yalnızca ilgili dosyalar ve tarama anı içindir.
 
 ScreenRecorderLib 7.0.1 MIT lisansıyla kullanılır; lisans uygulamanın kayıt çalışma zamanı klasörüne çıkarılır.
 

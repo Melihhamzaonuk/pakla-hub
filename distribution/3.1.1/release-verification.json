@@ -1,0 +1,46 @@
+{
+  "Version": "3.1.1",
+  "Date": "2026-10-25",
+  "Antivirus": "Kaspersky 21.26",
+  "ProcessedObjects": 19,
+  "Detected": 0,
+  "Suspicions": 0,
+  "Errors": 0,
+  "EmailSignup": "Owner confirmed successful registration and email confirmation; Brevo Delivered event verified",
+  "Tests": [
+    "Original 2.1-3.0 updaters verify/apply; library data preserved",
+    "RSA signature, hashes, tamper/traversal/downgrade rejection and rollback",
+    "Installer extraction/reinstall and data preservation",
+    "Shared search respects clip owner; favorites/sort controls",
+    "Shared header and card bounds at five sizes; 21-page responsive matrix",
+    "DPAPI sessions, serialized refresh and tray lifecycle",
+    "Owned-window capture and MP4/thumbnail export",
+    "Hidden window restored through secondary-launch event signal; no capture started"
+  ],
+  "Files": [
+    {
+      "File": "PaklaHub-3.1.1.pakpatch",
+      "Sha256": "54b6a47872aeff418ceda2eb690811c83667b2b4e17d6e56d0075d57acd788ed",
+      "Bytes": 1310022,
+      "Authenticode": "UnknownError"
+    },
+    {
+      "File": "PaklaHub-Kurulum.exe",
+      "Sha256": "4f2e48f9565b0ef586ea829de214c11edf995d36bb4b1a17b8d3ac560364ff6a",
+      "Bytes": 1932288,
+      "Authenticode": "NotSigned"
+    },
+    {
+      "File": "PaklaHub-Updater.exe",
+      "Sha256": "92dc75f2341d8ca1d4520b68d7a830f5c8f47629c7d3dda16e38130773770118",
+      "Bytes": 22528,
+      "Authenticode": "NotSigned"
+    },
+    {
+      "File": "PaklaHub.exe",
+      "Sha256": "c382f89057b06287062d8c010522eec815aa9811889443f6452b1b781ffa4ad1",
+      "Bytes": 1556992,
+      "Authenticode": "NotSigned"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "Version": "3.1.0",
-  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/3.1.0/PaklaHub-3.1.0.pakpatch",
-  "Sha256": "c5fcaf2e855939efddcba441e772769966c5887a934fac21d30715f06dea927c",
-  "Notes": "Yeni ortak ana alan, kişisel masa, sabit arama/kayıt/profil çubuğu, klip favorileri ve sıralama, dışa aktarma, profil öne çıkanları. E-posta doğrulamalı hesaplar ve arka plan klip kaydı. Clean, Internet Booster ve oyun kütüphanesi bir arada."
+  "Version": "3.1.1",
+  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/3.1.1/PaklaHub-3.1.1.pakpatch",
+  "Sha256": "54b6a47872aeff418ceda2eb690811c83667b2b4e17d6e56d0075d57acd788ed",
+  "Notes": "Birleşik ana alan, kişisel masa, ortak arama/kayıt/profil çubuğu, klip filtreleri ve dışa aktarma, çevrimiçi hesaplar. Sistem tepsisinden yeniden açılma güvenilirliği iyileştirildi."
 }
