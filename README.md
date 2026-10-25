@@ -1,4 +1,4 @@
-# Pakla Hub · 3.1 Studio
+# Pakla Hub · 3.2 Social
 
 Windows için oyun, klip ve bakım merkezi.
 
@@ -6,6 +6,22 @@ Windows için oyun, klip ve bakım merkezi.
 
 2.1 ve üzeri kuruluysa Güncellemeler → Güncelleme ara → Patch yükle.
 
+## Arkadaşlar ve özel sohbet
+
+Arkadaşlar bölümünde kendi arkadaş profilini etkinleştir ve benzersiz kullanıcı adını seç. Diğer kullanıcılar seni bu adla bulur; e-posta adresin aramada paylaşılmaz. Arkadaşın da kendi profilini etkinleştirmelidir.
+
+- Kullanıcı adıyla arama; gelen/giden istekler, kabul, ret ve iptal.
+- Kabul edilen arkadaşlar arasında birebir metin sohbeti.
+- Okunmamış mesaj sayısı, gönderildi/okundu bilgisi ve önceki mesajları yükleme.
+- Enter ile gönder; Shift+Enter ile yeni satır. Mesaj sınırı 2000 karakter.
+- Bağlantı hatasında taslak korunur; tekrar gönderim aynı mesajı çoğaltmaz.
+- Arkadaşlıktan çıkarma, engelleme ve engeli kaldırma. Engel kalkınca yeni arkadaş isteği gerekir.
+
+Mesajlar uygulama açıkken yaklaşık 2,5 saniyelik aralıklarla alınır. Arkadaş/okunmamış listesi sosyal ekranlarda yaklaşık 5, arka planda 30 saniyede yenilenir. Çevrimiçi durum veya yazıyor bilgisi gösterilmez. Grup, sesli görüşme ve dosya eki bu sürümde yoktur.
+
+Mesajlar Supabase sunucusunda saklanır; uçtan uca şifreli değildir. Veritabanı erişim kuralları yalnızca katılımcı kullanıcı hesaplarına okuma izni verir. Üçüncü kullanıcı, misafir ve doğrudan yazma denemeleri reddedilir. Sunucu mesaj uzunluğunu, arkadaşlık/engel durumunu ve gönderim hızını doğrular. Mesaj metinleri düz metin olarak gösterilir; HTML çalıştırılmaz.
+
+Gönderilmemiş taslaklar uygulama açıkken bellekte korunur; çıkış yapıldığında temizlenir. Mesaj geçmişi ve arkadaş listesi hesaba bağlı olarak sunucudan alınır.
 ## Tek bir ana alan
 
 - Sabit ortak çubuk: oyun, klip ve uygulama araması; kayıt durumu, etkinlikler ve profil.
@@ -38,7 +54,7 @@ Hesap ve profil için Supabase, doğrulama e-postaları için Brevo kullanılır
 
 ## Yayın güvenliği
 
-Patch paketleri RSA-SHA256 imzası ve dosya özetleriyle doğrulanır. Windows Authenticode yayıncı sertifikası henüz yoktur. Yerel antivirüs taraması ve dosya özetleri: [güvenlik notları](distribution/3.1.1/SECURITY.md), [doğrulama kaydı](distribution/3.1.1/release-verification.json), [tarama raporu](distribution/3.1.1/antivirus-report.txt). Sonuçlar yalnızca ilgili dosyalar ve tarama anı içindir.
+Patch paketleri RSA-SHA256 imzası ve dosya özetleriyle doğrulanır. Windows Authenticode yayıncı sertifikası henüz yoktur. Yerel antivirüs taraması ve dosya özetleri: [güvenlik notları](distribution/3.2.0/SECURITY.md), [doğrulama kaydı](distribution/3.2.0/release-verification.json), [tarama raporu](distribution/3.2.0/antivirus-report.txt). Sonuçlar yalnızca ilgili dosyalar ve tarama anı içindir.
 
 ScreenRecorderLib 7.0.1 MIT lisansıyla kullanılır; lisans uygulamanın kayıt çalışma zamanı klasörüne çıkarılır.
 

@@ -1,0 +1,44 @@
+{
+  "Version": "3.2.0",
+  "Date": "2026-10-25",
+  "Antivirus": "Kaspersky 21.26",
+  "ProcessedObjects": 16,
+  "Detected": 0,
+  "Suspicions": 0,
+  "Errors": 0,
+  "Tests": [
+    "Three SQL fixture users: RLS isolation, anonymous denial, request ownership, acceptance, nonce idempotency, validation, unread/read, blocking, rate limit; transaction rolled back; zero fixture users remained",
+    "Real owner authenticated RPC state; non-friend recent/older history denied; anonymous endpoints returned 401",
+    "Mock UI: search/request, message send, nonce retry, in-flight drafts, navigation, logout memory clearing; no real person messaged",
+    "23-page responsive matrix at five sizes; signed-in social and chat panes at five sizes",
+    "Auth JSON, DPAPI sessions, serialized refresh, tray and secondary-launch wake regression",
+    "Original 2.1-3.1.1 updaters apply 3.2.0 and preserve user data",
+    "Installer extraction/reinstall; RSA signature/hash/tamper/traversal/downgrade/rollback checks"
+  ],
+  "Files": [
+    {
+      "File": "PaklaHub-3.2.0.pakpatch",
+      "Sha256": "bf1c8dcadca5b3c2b3b660cfe2f3d82cdb68808d27f6d539e4fe59d22dfe2e2d",
+      "Bytes": 1376970,
+      "Authenticode": "UnknownError"
+    },
+    {
+      "File": "PaklaHub-Kurulum.exe",
+      "Sha256": "06549d541d4da9d5fab99e01dbd73f5ab93949b1d841d5dc9b7205657e0ae998",
+      "Bytes": 2054144,
+      "Authenticode": "NotSigned"
+    },
+    {
+      "File": "PaklaHub-Updater.exe",
+      "Sha256": "772d7e50f96c1c7ce83ec3e7e273a7126b6de7b28bf027165d36921e97a4a0cc",
+      "Bytes": 22528,
+      "Authenticode": "NotSigned"
+    },
+    {
+      "File": "PaklaHub.exe",
+      "Sha256": "5446bcb0292da83b7ba4b16454fd39dcd02518905f2ab031721417caac7ba4bf",
+      "Bytes": 1617920,
+      "Authenticode": "NotSigned"
+    }
+  ]
+}
