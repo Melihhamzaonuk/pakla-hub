@@ -1,0 +1,40 @@
+{
+  "version": "4.3.0",
+  "date": "2026-10-26",
+  "sha256": {
+    "PaklaHub.exe": "5dcad69650fe73fedd0a33329f1b54dc9861bd793b1c20f65b0049a823b8e61a",
+    "PaklaHub-Kurulum.exe": "4b8345d8e1f1d642445a1f65ebe4bc95b8f94df536cd76c0a74608eb70fdb138",
+    "PaklaHub-Updater.exe": "54c2013453b1c51f73e66a7dc02ecc6531b13bb61c1668e08d59b558b8c38de4",
+    "PaklaHub-4.3.0.pakpatch": "0c584c97bac16dace275b2286ddc63928e10052c3c27bc9457d2548b92d7f29e"
+  },
+  "antivirus": {
+    "processed": 25,
+    "suspicions": 0,
+    "detected": 0,
+    "product": "Kaspersky 21.26",
+    "errors": 0
+  },
+  "authenticode": "NotSigned",
+  "patchSignature": "RSA-SHA256 original publisher key",
+  "checks": [
+    "Production server SQL rollback: owner/co-editor/member boundaries, role grant/revoke, category isolation, announcements, archive restore, private discovery, rules race and bans; zero fixtures remain",
+    "Prior community interaction SQL regression passed",
+    "Server UI: settings save/roles tabs, categories, discovery, announcement composer, account reset and Spotify URL validation; seven pages x five sizes",
+    "Native 144 DPI 23-page layout and profile image/editor regressions passed",
+    "Actual production DXGI source factory recorded cropped owned synthetic pattern; audio/microphone off",
+    "Actual export metadata: 1920x1080 at approximately 30/60 FPS and synthetic two-second trim",
+    "Final installer extraction, versioned icon bytes/location, reinstall and user-data checks passed",
+    "Final signed patch tamper/traversal/downgrade/apply/rollback/data tests passed",
+    "Original 2.1, 3.3 and 4.1 updater compatibility passed",
+    "Final Hub navigation/library/network self-test passed"
+  ],
+  "limitations": [
+    "No voice/video calls, screen sharing or detailed channel permission matrix",
+    "No end-to-end encryption",
+    "One custom role per member; bundled management capability",
+    "Spotify OAuth/embedded Google/Apple login not configured; browser sessions do not transfer",
+    "Logged-in full Spotify playback not verified; provider restrictions apply",
+    "Windows protected content may not be captured",
+    "No universal antivirus/anti-cheat or FPS guarantee"
+  ]
+}

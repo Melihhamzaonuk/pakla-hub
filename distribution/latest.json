@@ -1,6 +1,6 @@
 {
-  "Version": "4.1.0",
-  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.1.0/PaklaHub-4.1.0.pakpatch",
-  "Sha256": "a56a3e549c09fa7416454d686dcca8765a605b17c15077f70295ba208e59d729",
-  "Notes": "Discord tarzında sohbet: sunucu, kanal ve üye panelleri; emoji tepkileri, mesaj düzenleme, sabitler, kanal geçmişinde arama ve alıntılama. Daha sade özel mesaj görünümü ve dar pencere düzeni."
+  "Version": "4.3.0",
+  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.3.0/PaklaHub-4.3.0.pakpatch",
+  "Sha256": "0c584c97bac16dace275b2286ddc63928e10052c3c27bc9457d2548b92d7f29e",
+  "Notes": "4.3: Sarı monitör çerçevesi olmadan DXGI kayıt, yenilenen klip stüdyosu, gömülü ve güncellenen Pakla simgeleri. Ortak sunucu düzenleme, özel ekip rolleri, kategoriler, duyuru kanalları, başlangıç şablonları ve Keşfet. Uygulama içinde Spotify web görünümü; Google/Apple tarayıcı oturumları otomatik taşınmaz."
 }

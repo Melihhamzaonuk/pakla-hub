@@ -1,60 +1,53 @@
-# Pakla Hub · 4.1
+# Pakla Hub · 4.3
 
-Sohbetlerin, toplulukların, kliplerin ve araçların. Tek bir yerde.
+Sohbetlerin, sunucuların, kliplerin ve araçların. Tek bir yerde.
 
 **[Pakla Hub’ı indir](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)**
 
-Kurulu sürümde **Güncellemeler → Güncelleme ara → Patch yükle**. 2.1 ve üzeri sürümler imzalı patch alabilir; yerel kullanıcı verileri korunur. 4.1'da Güncellemeler, Ayarlar ve Araçlar içinde bulunur.
+Kurulu uygulamada **Ayarlar → Güncellemeler → Güncelleme ara → Patch yükle**. 2.1 ve üzeri sürümler imzalı patch alabilir; yerel veriler korunur.
 
+## Yenilenen kayıt ve simgeler
 
-## 4.1 sohbet deneyimi
+Monitör kaydı DXGI Desktop Duplication kullanır: Windows Graphics Capture'ın sarı monitör çerçevesi açılmaz. Kayıt elle başlar; uygulama ve tepsi kayıt durumunu göstermeyi sürdürür. Yeni klip durum kartı, animasyonlu karşılama alanı, gömülü Pakla simgesi ve sürümlü kısayol simgeleri eklendi. Windows simge önbelleği silinmez, Explorer yeniden başlatılmaz.
 
-Sunucu, kanal, sohbet ve açılıp kapanabilen üye paneli; dar pencerede seçili konuşmaya odaklanan düzen. Özel mesajlar da avatar, isim ve tarih ayırıcılarıyla daha sade görünür.
+## Kendi sunucunu kur
 
-Topluluk kanallarında altı emoji tepkisi, kendi mesajını düzenleme, alıntı metni ekleme ve kurucu/moderatör için ortak sabitler bulunur. Kanal başına en fazla 50 görünür sabit tutulur. Ctrl+F ile etkin kanalda ara: sorgu başına son 10.000 mesaj incelenir ve en fazla 60 sonuç döner. Yukarıdaki mesajları okurken yeni mesajlara dön düğmesi gösterilir. Üye paneli gerçek üyeleri ve rollerini gösterir; çevrimiçi durumunu göstermez.
+Oyun ekibi, içerik topluluğu, çalışma grubu veya boş başlangıç şablonuyla başla. Sunucular varsayılan davetlidir. Sunucu adına veya **Sunucu ayarları** düğmesine tıklayarak düzenle:
 
-Tepki ve düzenlemeler sunucuda saklanır. Yeniden denenmiş emoji ekleme/çıkarma aynı işlemi tersine çevirmez. Bu sürümde tepkiler, düzenleme, arama ve sabitler topluluk kanalları içindir. Sesli/görüntülü görüşme ve ekran paylaşımı henüz yoktur.
+- Ad, açıklama, kurallar, ikon ve banner.
+- Kategoriler, kategori daraltma, kanal sırası ve konusu.
+- Herkesin yazabildiği metin ve yalnızca yöneticilerin yazabildiği duyuru kanalları.
+- Kanal arşivleme ve arşivden geri açma; mesajlar korunur.
+- Renkli özel roller; kurucu arkadaşına yönetim yetkili rol atayabilir. Bir üyede bir özel rol bulunur.
 
-## Sade ana alan
+Yönetim yetkisi görünüm, kategori/kanal, davet ve üye/mesaj moderasyonunu kapsar. Rol/yetki dağıtımı, Keşfet görünürlüğü ve sunucu arşivleme kurucudadır.
 
-Yeni Pakla ikonu, vektör çizimler, yüksek DPI desteği, ortak arama ve daha sakin yüzeyler. Oyun, uygulama ve müzik Kitaplık içinde; bakım ayrıntıları Araçlar altında. Dar pencerede seçili sohbet öne çıkar. Animasyonlar kapatılabilir.
+**Keşfet** yalnızca kurucunun listelemeyi açtığı gerçek sunucuları kategori ve ad/açıklama aramasıyla gösterir. Önizlemede tanıtım ve kurallar görünür; mesajlar üyelikten önce açılmaz. Değişmiş kurallar katılımda yeniden incelenir. Sahte sunucular/çevrimiçi sayıları gösterilmez.
 
-## Topluluklar ve mesajlar
+Kullanıcı başına 20 aktif sunucu, 5 kuruculuk; sunucu başına 100 üye, 20 aktif kanal, 12 kategori, 12 özel rol. Davetler 7 gün/25 katılım; Keşfet sayfaları en fazla 24 sonuç. Sesli/görüntülü kanallar, ekran paylaşımı ve Discord'un ayrıntılı kanal izin matrisi henüz yoktur.
 
-E-posta doğrulamalı hesabınla arkadaş profilini etkinleştir. Kullanıcı adıyla arkadaş ekle ve birebir sohbet et. Kendi topluluğunu oluştur, davet koduyla arkadaşlarını çağır; metin kanallarında buluş.
+## Sohbet, profil ve klipler
 
-- Kanal ekleme/arşivleme; üyeler, profiller, kurucu ve moderatör rolleri.
-- Üye çıkarma, yasaklama ve kurucu için yasağı kaldırma; süreli davetler.
-- Önceki mesajlar, okunmamış sayıları, özel sohbette okundu bilgisi.
-- Başarısız gönderimde taslak korunur; yeniden deneme aynı mesajı çoğaltmaz.
-- Kullanıcı başına 20 aktif topluluk ve 5 kuruculuk; topluluk başına 100 üye, 20 kanal. Davetler 7 gün ve 25 katılımla sınırlıdır.
+Doğrulanmış Pakla hesabıyla arkadaş ekle, birebir mesajlaş, avatar ve bannerını canlı önizlemeyle düzenle. Topluluk kanallarında altı emoji tepkisi, kendi mesajını düzenleme, alıntı metni, yönetici sabitleri ve Ctrl+F araması bulunur. Kanal başına 50 görünür sabit; aramada son 10.000 aday mesajdan en fazla 60 sonuç.
 
-Kanal mesajları yalnızca üyelere, özel mesajlar sohbetin katılımcı hesaplarına açıktır. E-posta adresleri gösterilmez. Mesajlar sunucuda saklanır; **uçtan uca şifreli değildir**. Etkin topluluk ekranı yaklaşık 3, özel sohbet 2,5 saniyede yenilenir. Taslaklar bellekte tutulur, hesap çıkışında temizlenir. Arşivleme verileri sunucuda korur; uygulama içinde arşivden geri açma henüz desteklenmez.
+Mesajlar sunucuda saklanır; **uçtan uca şifreli değildir**. E-postalar sosyal profilde gösterilmez. Yeniden deneme mesajı çoğaltmaz. Taslaklar bellektedir, hesap değişiminde temizlenir. Aktif kanal yaklaşık 3, özel sohbet 2,5 saniyede yenilenir.
 
-## Profil ve klipler
+720p30/1080p30/1080p60 klip kaydı; varsayılan 1080p30 ve mikrofon kapalıdır. Ctrl+Shift+F8 son yaklaşık 15/30/60 saniyeyi saklar. Tampon 256 MB; en az 1 GB boş alan gerekir. 10 saniyelik parçalar arasında kısa kesintiler olabilir. Klipler yereldir, otomatik paylaşılmaz. Windows korumalı içerik kaydını sınırlandırabilir; hedef FPS yük altında garanti edilmez.
 
-Ad, kullanıcı adı, biyografi, avatar ve görsel banner; düzenlerken canlı önizleme. JPG/PNG dosyaları sınırlı boyutta JPEG'e dönüştürülür: banner 960×320, avatar 256×256. Değişiklikler Kaydet ile uygulanır.
+## Spotify ve yerel müzik
 
-720p30, 1080p30 veya 1080p60 klip kaydı; varsayılan 1080p30. Kayıt elle başlar, mikrofon varsayılan kapalıdır. Ctrl+Shift+F8 son yaklaşık 15/30/60 saniyeyi saklar. Arama, favoriler, ad düzenleme ve MP4 kopyası dışa aktarma bulunur. Klipler cihazda kalır, otomatik paylaşılmaz.
+Yerel MP3/WAV oynatıcısı korunur. **Kitaplık → Spotify** veya **Müzik → Spotify uygulama içinde aç** resmi Spotify web görünümünü açar. Parça, albüm, liste ve podcast bağlantıları resmi gömülü oynatıcıda açılabilir. Microsoft Edge WebView2 Runtime gerekir. Tam oynatma hesap, bölge ve gömülü tarayıcı desteğine bağlıdır.
 
-Tampon en fazla 256 MB; en az 1 GB boş alan gerekir. 10 saniyelik parçalar arasında kısa kesintiler olabilir. 1080p60 daha fazla kaynak kullanır; düşük çözünürlüklü kaynağa yeni ayrıntı eklemez, yük altında hedef FPS garanti edilmez.
+Google/Apple girişi gömülü oynatıcıda desteklenmez. **Tarayıcıda giriş** normal tarayıcıyı açar; o oturum Pakla'ya otomatik aktarılmaz. İçeride Spotify e-posta girişini kullanıcı kendisi yapar. Spotify geliştirici/OAuth bağlantısı henüz yapılandırılmamıştır; giriş sonrası tam çalma doğrulanmadı. Pakla Spotify parolası veya erişim tokenı almaz. Yerel web oturumu ayrı profildedir; Pakla hesabı değişince oynatıcı kapanır. Oturum temizleme düğmesi yalnızca bu yerel web oturumunu siler.
 
-## Müzik ve Discord aktivitesi
+## Araçlar ve güvenlik
 
-Yerel MP3/WAV kitaplığı: oynat, duraklat, önceki/sonraki parçaya geç, konum seç ve ses düzeyini ayarla. Listeden çıkarmak dosyayı silmez. Müzik tepside sürebilir; Durdur veya Tamamen çık ile kapanır.
+Clean, bağlantı ölçümü, sistem göstergeleri, büyük dosyalar, başlangıç kayıtları, oyun/uygulama kısayolları, raporlar ve patch merkezi korunur. Internet Booster gecikme, jitter ve yanıt kaybını ölçer; VPN/GearUP benzeri yönlendirme yapmaz. Oyun belleğine veya anti-cheat sistemlerine müdahale edilmez.
 
-**Ayarlar → Discord aktivitesi** isteğe bağlıdır, varsayılan kapalıdır. Discord masaüstü açık olmalı ve aktivite gizliliği izin vermelidir. Yalnızca genel Pakla durumu paylaşılır; mesaj, kişi/kanal adı, parça adı veya dosya yolu gönderilmez. Discord parolası, bot tokenı veya OAuth yetkisi istenmez.
+Windows 10/11 x64, .NET Framework 4.8, kayıt için Media Foundation ve Visual C++ x64 çalışma zamanı gerekir. X varsayılan tepsiye küçültür; tamamen çıkış tepsi menüsündedir. Kayıt/müzik açılışta başlamaz. Animasyonlar kapatılabilir. Discord aktivitesi isteğe bağlı ve varsayılan kapalıdır; yalnızca genel Pakla durumu paylaşılır.
 
-Sesli/görüntülü görüşme, ekran paylaşımı, dosya ekleri, genel sosyal medya akışı, Spotify kataloğu ve VPN/GearUP benzeri trafik yönlendirme bu sürümde bulunmaz. Internet Booster gecikme, jitter ve yanıt kaybını ölçer.
+RSA-SHA256 patch doğrulaması vardır; bu derleme güvenilir Windows Authenticode yayıncı sertifikası taşımaz. [Güvenlik](distribution/4.3.0/SECURITY.md), [doğrulama](distribution/4.3.0/release-verification.json), [tarama](distribution/4.3.0/antivirus-report.txt), [lisanslar](distribution/4.3.0/THIRD-PARTY-LICENSES.txt).
 
-## Pakla araçları ve güvenlik
-
-Clean, bağlantı ölçümü, sistem göstergeleri, büyük dosya bulucu, başlangıç kayıtları, oyun/uygulama kısayolları, raporlar ve imzalı patch merkezi. Windows Graphics Capture kullanılır; oyun belleğine, dosyalarına veya anti-cheat sistemine müdahale edilmez. Kesin performans artışı ya da tüm oyunlar için sıfır ban riski garantisi verilmez.
-
-Windows 10/11 x64 ve .NET Framework 4.8 gerekir. Kayıt motoru Media Foundation ve Visual C++ x64 çalışma zamanını kullanır. Kapatma varsayılan olarak tepsiye küçültür; tamamen çıkış tepsi menüsündedir. Kayıt ve müzik açılışta kendiliğinden başlamaz. Kalıcı temizlikte dosya listesini inceleyip onayla.
-
-Patch'ler RSA-SHA256 ve dosya özetleriyle doğrulanır. Bu derleme güvenilir Windows Authenticode yayıncı sertifikası taşımaz. [Güvenlik notları](distribution/4.1.0/SECURITY.md), [doğrulama kaydı](distribution/4.1.0/release-verification.json), [yerel tarama](distribution/4.1.0/antivirus-report.txt).
-
-Hesaplar Supabase, doğrulama e-postaları Brevo kullanır. Oturum anahtarları Windows DPAPI ile korunur; şifreler yerelde saklanmaz. SMTP ve yönetici anahtarları dağıtılmaz. ScreenRecorderLib 7.0.1 MIT lisansıyla kullanılır.
+Hesaplar Supabase, doğrulama e-postaları Brevo kullanır. Pakla oturumları Windows DPAPI ile korunur; SMTP/yönetici anahtarları dağıtılmaz.
 
 Destek: **supportpakla@gmail.com**
