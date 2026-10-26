@@ -1,6 +1,6 @@
 {
-  "Version": "3.3.0",
-  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/3.3.0/PaklaHub-3.3.0.pakpatch",
-  "Sha256": "99acd3f92d212960332bcc47877b39786731a700b7ea9e8884d06541284396ad",
-  "Notes": "Daha net yüksek DPI arayüzü, profesyonel menü ve kartlar, yenilenen giriş alanları; 720p30, 1080p30 ve 1080p60 klip kalitesi. Arkadaşlar, sohbet, Clean ve Internet Booster korunur."
+  "Version": "4.0.0",
+  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.0.0/PaklaHub-4.0.0.pakpatch",
+  "Sha256": "9e125f0ce4bbf4924ac56717d7baf73370b8328f95dbcd3ab6ca62b480da55f2",
+  "Notes": "Sade Pakla 4.0: topluluklar, davetli metin kanalları ve moderasyon; görsel profil bannerları, yerel müzik oynatıcı, isteğe bağlı Discord aktivitesi ve yeni ikon. Clean, bağlantı araçları ve 1080p klip stüdyosu aynı yerde."
 }

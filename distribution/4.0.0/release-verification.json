@@ -1,0 +1,37 @@
+{
+  "version": "4.0.0",
+  "date": "2026-10-26",
+  "sha256": {
+    "PaklaHub.exe": "b80f7c341fbeeb1593884d065221b7ff490f0b1bb8460cbff8b69dee952cbb79",
+    "PaklaHub-Kurulum.exe": "5b5f5846b44f256154baafd9be4bab2b6b30182179120430fe2efc56c06b993b",
+    "PaklaHub-Updater.exe": "fc6a02f662de88f313d9cd1a756f800736a6bdd4ad507772633f411d1639b522",
+    "PaklaHub-4.0.0.pakpatch": "9e125f0ce4bbf4924ac56717d7baf73370b8328f95dbcd3ab6ca62b480da55f2"
+  },
+  "antivirus": {
+    "detected": 0,
+    "processed": 4,
+    "product": "Kaspersky 21.26",
+    "errors": 0,
+    "suspicions": 0
+  },
+  "authenticode": "NotSigned",
+  "patchSignature": "RSA-SHA256 original publisher key",
+  "checks": [
+    "Production SQL rollback: community membership, invite/role/RLS boundaries, anti-spoofing, nonce retries, moderation, bans, rate limits and banners; zero fixture users remain",
+    "Existing private-message SQL tests and accepted-friend profile access passed",
+    "Mock community transport/UI: foreign-channel filter, error sanitization, retry nonce, pending/navigation drafts, logout clear; seven pages at five requested sizes",
+    "Native Windows 144 DPI community matrix and existing 23-page responsive matrix passed",
+    "Generated silent WAV: real play, pause, seek, resume, stop",
+    "Registered Discord application handshake and own probe PID clear acknowledged; no activity published",
+    "Bounded JPEG encode and live profile editor fixture passed",
+    "Installer extraction/reinstall/data preservation; signed patch tamper/downgrade/rollback tests passed",
+    "Original updater compatibility: 2.1,2.2,2.3,2.4,2.5,3.0,3.2,3.3; tray/auth regressions passed"
+  ],
+  "limitations": [
+    "No end-to-end encryption",
+    "No voice/video calling, screen sharing, global social feed, Spotify catalogue or VPN routing",
+    "No anti-cheat or antivirus reputation guarantee",
+    "Discord activity requires opt-in and running desktop client",
+    "Community archive reopening currently requires support"
+  ]
+}

@@ -1,67 +1,51 @@
-# Pakla Hub · 3.3
+# Pakla Hub · 4.0
 
-Windows için oyun, klip ve bakım merkezi.
+Sohbetlerin, toplulukların, kliplerin ve araçların. Tek bir yerde.
 
 **[Pakla Hub’ı indir](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)**
 
-2.1 ve üzeri kuruluysa Güncellemeler → Güncelleme ara → Patch yükle.
+Kurulu sürümde **Güncellemeler → Güncelleme ara → Patch yükle**. 2.1 ve üzeri sürümler imzalı patch alabilir; yerel kullanıcı verileri korunur. 4.0'da Güncellemeler, Ayarlar ve Araçlar içinde bulunur.
 
-## Yeni görünüm ve netlik
+## Sade ana alan
 
-Yüksek DPI ve monitör ölçeği desteği, ölçeklenen vektör ikonlar, daha okunaklı yazılar, sade yüzeyler, ortak arama çubuğu ve yenilenen giriş alanları. Dar pencerede menü ve kartlar uyarlanır; hareketler ayarlardan kapatılabilir.
+Yeni Pakla ikonu, vektör çizimler, yüksek DPI desteği, ortak arama ve daha sakin yüzeyler. Oyun, uygulama ve müzik Kitaplık içinde; bakım ayrıntıları Araçlar altında. Dar pencerede seçili sohbet öne çıkar. Animasyonlar kapatılabilir.
 
-1080p60 daha fazla GPU, disk ve güç kullanır. Kaynak ekranın çözünürlüğü veya kare hızı daha düşükse yükseltmek yeni görüntü ayrıntısı oluşturmaz. Sabit FPS hedefi, yük altında gerçek yakalama hızını garanti etmez.
+## Topluluklar ve mesajlar
 
-## Arkadaşlar ve özel sohbet
+E-posta doğrulamalı hesabınla arkadaş profilini etkinleştir. Kullanıcı adıyla arkadaş ekle ve birebir sohbet et. Kendi topluluğunu oluştur, davet koduyla arkadaşlarını çağır; metin kanallarında buluş.
 
-Arkadaşlar bölümünde kendi arkadaş profilini etkinleştir ve benzersiz kullanıcı adını seç. Diğer kullanıcılar seni bu adla bulur; e-posta adresin aramada paylaşılmaz. Arkadaşın da kendi profilini etkinleştirmelidir.
+- Kanal ekleme/arşivleme; üyeler, profiller, kurucu ve moderatör rolleri.
+- Üye çıkarma, yasaklama ve kurucu için yasağı kaldırma; süreli davetler.
+- Önceki mesajlar, okunmamış sayıları, özel sohbette okundu bilgisi.
+- Başarısız gönderimde taslak korunur; yeniden deneme aynı mesajı çoğaltmaz.
+- Kullanıcı başına 20 aktif topluluk ve 5 kuruculuk; topluluk başına 100 üye, 20 kanal. Davetler 7 gün ve 25 katılımla sınırlıdır.
 
-- Kullanıcı adıyla arama; gelen/giden istekler, kabul, ret ve iptal.
-- Kabul edilen arkadaşlar arasında birebir metin sohbeti.
-- Okunmamış mesaj sayısı, gönderildi/okundu bilgisi ve önceki mesajları yükleme.
-- Enter ile gönder; Shift+Enter ile yeni satır. Mesaj sınırı 2000 karakter.
-- Bağlantı hatasında taslak korunur; tekrar gönderim aynı mesajı çoğaltmaz.
-- Arkadaşlıktan çıkarma, engelleme ve engeli kaldırma. Engel kalkınca yeni arkadaş isteği gerekir.
+Kanal mesajları yalnızca üyelere, özel mesajlar sohbetin katılımcı hesaplarına açıktır. E-posta adresleri gösterilmez. Mesajlar sunucuda saklanır; **uçtan uca şifreli değildir**. Etkin topluluk ekranı yaklaşık 3, özel sohbet 2,5 saniyede yenilenir. Taslaklar bellekte tutulur, hesap çıkışında temizlenir. Arşivleme verileri sunucuda korur; uygulama içinde arşivden geri açma henüz desteklenmez.
 
-Mesajlar uygulama açıkken yaklaşık 2,5 saniyelik aralıklarla alınır. Arkadaş/okunmamış listesi sosyal ekranlarda yaklaşık 5, arka planda 30 saniyede yenilenir. Çevrimiçi durum veya yazıyor bilgisi gösterilmez. Grup, sesli görüşme ve dosya eki bu sürümde yoktur.
+## Profil ve klipler
 
-Mesajlar Supabase sunucusunda saklanır; uçtan uca şifreli değildir. Veritabanı erişim kuralları yalnızca katılımcı kullanıcı hesaplarına okuma izni verir. Üçüncü kullanıcı, misafir ve doğrudan yazma denemeleri reddedilir. Sunucu mesaj uzunluğunu, arkadaşlık/engel durumunu ve gönderim hızını doğrular. Mesaj metinleri düz metin olarak gösterilir; HTML çalıştırılmaz.
+Ad, kullanıcı adı, biyografi, avatar ve görsel banner; düzenlerken canlı önizleme. JPG/PNG dosyaları sınırlı boyutta JPEG'e dönüştürülür: banner 960×320, avatar 256×256. Değişiklikler Kaydet ile uygulanır.
 
-Gönderilmemiş taslaklar uygulama açıkken bellekte korunur; çıkış yapıldığında temizlenir. Mesaj geçmişi ve arkadaş listesi hesaba bağlı olarak sunucudan alınır.
-## Tek bir ana alan
+720p30, 1080p30 veya 1080p60 klip kaydı; varsayılan 1080p30. Kayıt elle başlar, mikrofon varsayılan kapalıdır. Ctrl+Shift+F8 son yaklaşık 15/30/60 saniyeyi saklar. Arama, favoriler, ad düzenleme ve MP4 kopyası dışa aktarma bulunur. Klipler cihazda kalır, otomatik paylaşılmaz.
 
-- Sabit ortak çubuk: oyun, klip ve uygulama araması; kayıt durumu, etkinlikler ve profil.
-- Kendi masan: sık kullandığın araçları ana alana sabitle.
-- Son kliplerin, oyun kısayolların, canlı CPU/RAM/disk bilgileri ve bakım araçların aynı yerde.
-- Neon yüzeyler, hareketli görseller, hover geçişleri ve dar pencereye uyarlanan menü. Animasyonlar kapatılabilir.
+Tampon en fazla 256 MB; en az 1 GB boş alan gerekir. 10 saniyelik parçalar arasında kısa kesintiler olabilir. 1080p60 daha fazla kaynak kullanır; düşük çözünürlüklü kaynağa yeni ayrıntı eklemez, yük altında hedef FPS garanti edilmez.
 
-## Klip stüdyosu ve profil
+## Müzik ve Discord aktivitesi
 
-- Seçtiğin monitörü 720p30, 1080p30 veya 1080p60 MP4 olarak kaydet. Varsayılan 1080p30. Kayıt elle başlatılır.
-- Ctrl+Shift+F8 ile son yaklaşık 15, 30 veya 60 saniyeyi sakla.
-- Yerel klip kütüphanesi: arama, favoriler, sıralama, ad düzenleme ve MP4 kopyası dışa aktarma.
-- Sistem tepsisinde çalışma, durdurma, kaydetme ve tamamen çıkış.
-- E-posta doğrulamalı kayıt/giriş, şifre sıfırlama, profil görseli, biyografi ve kapak rengi.
-- Profilde bu cihazdaki öne çıkan kliplerin. Klipler otomatik paylaşılmaz veya buluta yüklenmez.
+Yerel MP3/WAV kitaplığı: oynat, duraklat, önceki/sonraki parçaya geç, konum seç ve ses düzeyini ayarla. Listeden çıkarmak dosyayı silmez. Müzik tepside sürebilir; Durdur veya Tamamen çık ile kapanır.
 
-## Pakla araçların
+**Ayarlar → Discord aktivitesi** isteğe bağlıdır, varsayılan kapalıdır. Discord masaüstü açık olmalı ve aktivite gizliliği izin vermelidir. Yalnızca genel Pakla durumu paylaşılır; mesaj, kişi/kanal adı, parça adı veya dosya yolu gönderilmez. Discord parolası, bot tokenı veya OAuth yetkisi istenmez.
 
-Pakla Clean, Internet Booster, canlı sistem göstergeleri, bağlantı geçmişi, büyük dosya bulucu, başlangıç kayıtları, oyun ve uygulama kütüphanesi, temizlik raporları ve uygulama içi imzalı güncellemeler.
+Sesli/görüntülü görüşme, ekran paylaşımı, dosya ekleri, genel sosyal medya akışı, Spotify kataloğu ve VPN/GearUP benzeri trafik yönlendirme bu sürümde bulunmaz. Internet Booster gecikme, jitter ve yanıt kaybını ölçer.
 
-## Kullanım bilgileri
+## Pakla araçları ve güvenlik
 
-Windows x64 ve .NET Framework 4.8+ gerekir. Kaydedilen ekran masaüstünü ve bildirimleri de içerebilir. Mikrofon varsayılan olarak kapalıdır. Tampon 10 saniyelik parçalardan oluşur; parçalar arasında kısa kesintiler olabilir. Yaklaşık klip süresi eldeki görüntüye bağlıdır; tampon en fazla 256 MB tutulur. Kayıt için en az 1 GB boş alan gerekir.
+Clean, bağlantı ölçümü, sistem göstergeleri, büyük dosya bulucu, başlangıç kayıtları, oyun/uygulama kısayolları, raporlar ve imzalı patch merkezi. Windows Graphics Capture kullanılır; oyun belleğine, dosyalarına veya anti-cheat sistemine müdahale edilmez. Kesin performans artışı ya da tüm oyunlar için sıfır ban riski garantisi verilmez.
 
-Oyunlar yalnızca kendin eklediğin güvenilir kısayollarla başlatılır. Oyun belleğine veya anti-cheat'e müdahale edilmez. Seans sayacı Hub açıkken geçen süreyi ölçer. Internet Booster gerçek ping/jitter ölçümleri sunar; FPS veya internet hızı artışı garantisi vermez.
+Windows 10/11 x64 ve .NET Framework 4.8 gerekir. Kayıt motoru Media Foundation ve Visual C++ x64 çalışma zamanını kullanır. Kapatma varsayılan olarak tepsiye küçültür; tamamen çıkış tepsi menüsündedir. Kayıt ve müzik açılışta kendiliğinden başlamaz. Kalıcı temizlikte dosya listesini inceleyip onayla.
 
-Temizlik ekranındaki kalıcı silme için dosya listesini inceleyip onay ver. Desteklenen büyük dosya ve klip kaldırmaları Geri Dönüşüm Kutusu'nu kullanır. Güncellemeler ve kaldırma kişisel verileri korur.
+Patch'ler RSA-SHA256 ve dosya özetleriyle doğrulanır. Bu derleme güvenilir Windows Authenticode yayıncı sertifikası taşımaz. [Güvenlik notları](distribution/4.0.0/SECURITY.md), [doğrulama kaydı](distribution/4.0.0/release-verification.json), [yerel tarama](distribution/4.0.0/antivirus-report.txt).
 
-Hesap ve profil için Supabase, doğrulama e-postaları için Brevo kullanılır. “Beni hatırla” oturum anahtarlarını Windows DPAPI ile korur; şifre yerelde saklanmaz. SMTP ve yönetici anahtarları uygulamaya dahil edilmez. Klipler, oyun kısayolları ve ölçümler cihazında tutulur.
-
-## Yayın güvenliği
-
-Patch paketleri RSA-SHA256 imzası ve dosya özetleriyle doğrulanır. Windows Authenticode yayıncı sertifikası henüz yoktur. Yerel antivirüs taraması ve dosya özetleri: [güvenlik notları](distribution/3.3.0/SECURITY.md), [doğrulama kaydı](distribution/3.3.0/release-verification.json), [tarama raporu](distribution/3.3.0/antivirus-report.txt). Sonuçlar yalnızca ilgili dosyalar ve tarama anı içindir.
-
-ScreenRecorderLib 7.0.1 MIT lisansıyla kullanılır; lisans uygulamanın kayıt çalışma zamanı klasörüne çıkarılır.
+Hesaplar Supabase, doğrulama e-postaları Brevo kullanır. Oturum anahtarları Windows DPAPI ile korunur; şifreler yerelde saklanmaz. SMTP ve yönetici anahtarları dağıtılmaz. ScreenRecorderLib 7.0.1 MIT lisansıyla kullanılır.
 
 Destek: **supportpakla@gmail.com**
