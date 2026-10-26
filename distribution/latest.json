@@ -1,6 +1,6 @@
 {
-  "Version": "3.2.0",
-  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/3.2.0/PaklaHub-3.2.0.pakpatch",
-  "Sha256": "bf1c8dcadca5b3c2b3b660cfe2f3d82cdb68808d27f6d539e4fe59d22dfe2e2d",
-  "Notes": "Arkadaş isteği ve kabul/ret, kullanıcı adıyla arama, özel birebir sohbet, okunmamış/okundu bilgisi, mesaj geçmişi ve engelleme. Mevcut hesaplar, klip stüdyosu ve Pakla araçları korunur."
+  "Version": "3.3.0",
+  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/3.3.0/PaklaHub-3.3.0.pakpatch",
+  "Sha256": "99acd3f92d212960332bcc47877b39786731a700b7ea9e8884d06541284396ad",
+  "Notes": "Daha net yüksek DPI arayüzü, profesyonel menü ve kartlar, yenilenen giriş alanları; 720p30, 1080p30 ve 1080p60 klip kalitesi. Arkadaşlar, sohbet, Clean ve Internet Booster korunur."
 }

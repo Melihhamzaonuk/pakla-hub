@@ -1,0 +1,34 @@
+{
+  "version": "3.3.0",
+  "date": "2026-10-26",
+  "sha256": {
+    "PaklaHub-3.3.0.pakpatch": "99acd3f92d212960332bcc47877b39786731a700b7ea9e8884d06541284396ad",
+    "PaklaHub.exe": "72932984d7fe34ca3b02501547723b7283965c3b17e201c5560790b54e2bf665",
+    "PaklaHub-Kurulum.exe": "13bb1fb8af78d8042b8c50472a8dac1903bdc53c50764ccf0441be998e42f86a",
+    "PaklaHub-Updater.exe": "b8da7cc70881088615d0b2c6cf565d0d961807ade7235d3e7640537964d6d692"
+  },
+  "antivirus": {
+    "suspicions": 0,
+    "errors": 0,
+    "processed": 19,
+    "detected": 0,
+    "product": "Kaspersky 21.26"
+  },
+  "authenticode": "NotSigned",
+  "patchSignature": "RSA-SHA256 original publisher key",
+  "validation": [
+    "Native 150% DPI and five requested window sizes across 23 pages; additional 100%, 150%, 200% layout fixtures",
+    "Mock social/auth contracts and native 150% chat UI; no real messages sent",
+    "Windows Graphics Capture records owned test window only; audio off",
+    "Actual exported MP4: 1920x1080, 30/60 FPS targets, two-second trim (short-file metadata ~30.5/60.5 FPS)",
+    "Installer extraction/reinstall/user data preservation; signed patch rejection and rollback tests",
+    "Original updater compatibility: 2.1,2.2,2.3,2.4,2.5,3.0,3.1.1,3.2; library and receipts preserved",
+    "Tray hide/wake/quit regression"
+  ],
+  "limits": [
+    "Not an antivirus or anti-cheat guarantee",
+    "No trusted Windows publisher certificate",
+    "Klip export frame rate target can drop under load",
+    "Messages stored server-side; no end-to-end encryption"
+  ]
+}
