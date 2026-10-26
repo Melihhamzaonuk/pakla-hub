@@ -1,10 +1,19 @@
-# Pakla Hub · 4.0
+# Pakla Hub · 4.1
 
 Sohbetlerin, toplulukların, kliplerin ve araçların. Tek bir yerde.
 
 **[Pakla Hub’ı indir](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)**
 
-Kurulu sürümde **Güncellemeler → Güncelleme ara → Patch yükle**. 2.1 ve üzeri sürümler imzalı patch alabilir; yerel kullanıcı verileri korunur. 4.0'da Güncellemeler, Ayarlar ve Araçlar içinde bulunur.
+Kurulu sürümde **Güncellemeler → Güncelleme ara → Patch yükle**. 2.1 ve üzeri sürümler imzalı patch alabilir; yerel kullanıcı verileri korunur. 4.1'da Güncellemeler, Ayarlar ve Araçlar içinde bulunur.
+
+
+## 4.1 sohbet deneyimi
+
+Sunucu, kanal, sohbet ve açılıp kapanabilen üye paneli; dar pencerede seçili konuşmaya odaklanan düzen. Özel mesajlar da avatar, isim ve tarih ayırıcılarıyla daha sade görünür.
+
+Topluluk kanallarında altı emoji tepkisi, kendi mesajını düzenleme, alıntı metni ekleme ve kurucu/moderatör için ortak sabitler bulunur. Kanal başına en fazla 50 görünür sabit tutulur. Ctrl+F ile etkin kanalda ara: sorgu başına son 10.000 mesaj incelenir ve en fazla 60 sonuç döner. Yukarıdaki mesajları okurken yeni mesajlara dön düğmesi gösterilir. Üye paneli gerçek üyeleri ve rollerini gösterir; çevrimiçi durumunu göstermez.
+
+Tepki ve düzenlemeler sunucuda saklanır. Yeniden denenmiş emoji ekleme/çıkarma aynı işlemi tersine çevirmez. Bu sürümde tepkiler, düzenleme, arama ve sabitler topluluk kanalları içindir. Sesli/görüntülü görüşme ve ekran paylaşımı henüz yoktur.
 
 ## Sade ana alan
 
@@ -44,7 +53,7 @@ Clean, bağlantı ölçümü, sistem göstergeleri, büyük dosya bulucu, başla
 
 Windows 10/11 x64 ve .NET Framework 4.8 gerekir. Kayıt motoru Media Foundation ve Visual C++ x64 çalışma zamanını kullanır. Kapatma varsayılan olarak tepsiye küçültür; tamamen çıkış tepsi menüsündedir. Kayıt ve müzik açılışta kendiliğinden başlamaz. Kalıcı temizlikte dosya listesini inceleyip onayla.
 
-Patch'ler RSA-SHA256 ve dosya özetleriyle doğrulanır. Bu derleme güvenilir Windows Authenticode yayıncı sertifikası taşımaz. [Güvenlik notları](distribution/4.0.0/SECURITY.md), [doğrulama kaydı](distribution/4.0.0/release-verification.json), [yerel tarama](distribution/4.0.0/antivirus-report.txt).
+Patch'ler RSA-SHA256 ve dosya özetleriyle doğrulanır. Bu derleme güvenilir Windows Authenticode yayıncı sertifikası taşımaz. [Güvenlik notları](distribution/4.1.0/SECURITY.md), [doğrulama kaydı](distribution/4.1.0/release-verification.json), [yerel tarama](distribution/4.1.0/antivirus-report.txt).
 
 Hesaplar Supabase, doğrulama e-postaları Brevo kullanır. Oturum anahtarları Windows DPAPI ile korunur; şifreler yerelde saklanmaz. SMTP ve yönetici anahtarları dağıtılmaz. ScreenRecorderLib 7.0.1 MIT lisansıyla kullanılır.
 

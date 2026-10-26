@@ -1,0 +1,36 @@
+{
+  "version": "4.1.0",
+  "date": "2026-10-26",
+  "sha256": {
+    "PaklaHub.exe": "fe2e29c02e2cc83dab87ad3bb9fddb11b7d0024bf778d398eef3d8f787f1cbc5",
+    "PaklaHub-Kurulum.exe": "9a5deca670998d49eaee144e2b39236546a11a6a3dc3aed50669d780385dc7d7",
+    "PaklaHub-Updater.exe": "f091c3be8b2554d2ed4a161b971a2e619adbb30a16d46f1e594111e45c306d19",
+    "PaklaHub-4.1.0.pakpatch": "a56a3e549c09fa7416454d686dcca8765a605b17c15077f70295ba208e59d729"
+  },
+  "antivirus": {
+    "suspicions": 0,
+    "product": "Kaspersky 21.26",
+    "detected": 0,
+    "processed": 16,
+    "errors": 0
+  },
+  "authenticode": "NotSigned",
+  "patchSignature": "RSA-SHA256 original publisher key",
+  "checks": [
+    "Production SQL rollback: member/block boundaries, author-only edits, moderator pins, literal search, reaction aggregation, idempotent add/remove, malformed IDs, rate limits; zero fixture users remain",
+    "Conversation UI mock transport: reactions, pins, edit markers, search, members, deferred search after polling, retry nonce, drafts and logout clearing; seven pages at five sizes",
+    "Native 144 DPI community and existing 23-page responsive matrix passed",
+    "Private DM/auth/profile banner and tray regressions passed",
+    "Final installer extraction/reinstall/data preservation and patch signature/tamper/downgrade/rollback tests passed",
+    "Final signed patch compatibility passed with original 2.1, 3.3 and 4.0 updater engines"
+  ],
+  "limitations": [
+    "No voice/video calls or screen sharing",
+    "No end-to-end encryption",
+    "Channel search scans last 10000 candidate messages, returns at most 60",
+    "Reactions, edits, search and pins apply to community channels",
+    "No Spotify catalogue or VPN routing",
+    "No Authenticode certificate or universal antivirus/anti-cheat guarantee",
+    "Discord presence opt-in; no real presence published in tests"
+  ]
+}

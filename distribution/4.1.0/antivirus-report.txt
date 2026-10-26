@@ -1,0 +1,50 @@
+; --- Settings ---
+; Action on detect:	Report only
+; Scan objects:	All objects
+; Use iChecker:	Yes
+; Use iSwift:	Yes
+; Try disinfect:	No
+; Try delete:	No
+; Try delete container:	No
+; Scan archives:	No
+; Exclude by mask:	No
+; Include by mask:	No
+; Objects to scan:	
+; 	"[release]\"	Enable = Yes	Recursive = Yes
+; ------------------
+2026-10-26 15:18:06	Scan_Objects$6350                          starting   1          
+2026-10-26 15:18:06	Scan_Objects$6350                          running    1          
+2026-10-26 15:18:06 	[release]\PaklaHub-4.1.0.pakpatch	archive	ZIP
+2026-10-26 15:18:06	[release]\PaklaHub-4.1.0.pakpatch//manifest.json	ok
+2026-10-26 15:18:06	[release]\PaklaHub-4.1.0.pakpatch//manifest.sig	ok
+2026-10-26 15:18:07	[release]\PaklaHub-Updater.exe	ok
+2026-10-26 15:18:08 	[release]\PaklaHub-Kurulum.exe	archive	dotNetResources
+2026-10-26 15:18:08 	[release]\PaklaHub-4.1.0.pakpatch//PaklaHub.exe	archive	dotNetResources
+2026-10-26 15:18:08	[release]\PaklaHub-4.1.0.pakpatch//PaklaHub.exe//data0000.res	ok
+2026-10-26 15:18:08	[release]\PaklaHub-4.1.0.pakpatch//PaklaHub.exe//data0001.res	ok
+2026-10-26 15:18:08	[release]\PaklaHub-4.1.0.pakpatch//PaklaHub.exe//data0002.res	ok
+2026-10-26 15:18:08	[release]\PaklaHub-4.1.0.pakpatch//PaklaHub.exe	ok
+2026-10-26 15:18:08 	[release]\PaklaHub-Kurulum.exe//data0000.res	archive	dotNetResources
+2026-10-26 15:18:08	[release]\PaklaHub-Kurulum.exe//data0000.res//data0000.res	ok
+2026-10-26 15:18:08	[release]\PaklaHub-Kurulum.exe//data0000.res//data0001.res	ok
+2026-10-26 15:18:08	[release]\PaklaHub-Kurulum.exe//data0000.res//data0002.res	ok
+2026-10-26 15:18:08	[release]\PaklaHub-Kurulum.exe//data0000.res	ok
+2026-10-26 15:18:08	[release]\PaklaHub-Kurulum.exe	ok
+2026-10-26 15:18:08 	[release]\PaklaHub-4.1.0.pakpatch//PaklaHub-Kaldir.exe	archive	dotNetResources
+2026-10-26 15:18:08	[release]\PaklaHub-4.1.0.pakpatch//PaklaHub-Kaldir.exe//data0000.res	ok
+2026-10-26 15:18:08	[release]\PaklaHub-4.1.0.pakpatch//PaklaHub-Kaldir.exe	ok
+2026-10-26 15:18:08	[release]\PaklaHub-4.1.0.pakpatch	ok
+2026-10-26 15:18:08	[release]\PaklaHub.exe	ok
+2026-10-26 15:18:09	Scan_Objects$6350                          completed             
+;  --- Statistics ---
+; Time Start:	2026-10-26 15:18:06
+; Time Finish:	2026-10-26 15:18:09
+; Processed objects:	16
+; Total OK:	16
+; Total detected:	0
+; Suspicions:	0
+; Total skipped:	0
+; Password protected:	0
+; Corrupted:	0
+; Errors:	0
+;  ------------------
