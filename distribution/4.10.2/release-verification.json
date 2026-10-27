@@ -1,0 +1,37 @@
+{
+  "version": "4.10.2",
+  "date": "2026-10-27",
+  "channel": "public update feed",
+  "sha256": {
+    "PaklaHub.exe": "53d823bc7c3e20670ef14570e78f64b2dcb9bb46a62d4cb838f531245ad436b2",
+    "PaklaHub-Kurulum.exe": "6b0ea0e07b56f720e66842624979ad3d93a208365bf5662e2fee53e100794a58",
+    "PaklaHub-Updater.exe": "3973116728507055df734a8ca0175abd5baf65bd98127d0179f91460eb79e4e0",
+    "PaklaHub-4.10.2.pakpatch": "da9b3b5d7655a5ddec212937dcbc7ad69386a600a2c0bb7fbc93c4ebf365c945"
+  },
+  "antivirus": {
+    "product": "Kaspersky 21.26",
+    "processed": 36,
+    "detected": 0,
+    "suspicions": 0,
+    "errors": 0
+  },
+  "authenticode": "NotSigned",
+  "patchSignature": "RSA-SHA256 original publisher key",
+  "checks": [
+    "4.10.0 opening crash reproduced: BeginInvoke before native handle in HubHome constructor path",
+    "4.10.2: three background-enabled constructors, pre-handle home navigation, actual Shown/tray initialization, 1.4s message loop and clean exits using isolated guest data",
+    "12 product pages x five requested sizes, workspace/search/filter/profile/sidebar fixtures passed",
+    "4.10 search/shared-content/bulk-clip feature fixture passed; video bytes unchanged",
+    "App and installer self-tests and RSA patch tamper/traversal/downgrade/apply/rollback tests passed",
+    "Original 4.10.0 engine verifies and applies 4.10.2, preserving fixture library and update receipt",
+    "Installed 4.10.2 exact binary hash matches release; 21 user-data files unchanged except expected release history metadata",
+    "Update notification fixture: new-only release validation, disabled preference, hidden deferral, newer pending priority, once per session, bounded read-only notes, narrow dialog and cancel/review results; foreground popup itself uses native ActiveForm gating and was not forced in offscreen automation"
+  ],
+  "limitations": [
+    "Startup fixture uses isolated guest data; external account restore and network failures retain earlier 4.10 protected-session coverage, not rerun here",
+    "Real recording/remote messaging/playback not performed",
+    "Shared content covers loaded messages only",
+    "Voice beta six peers, one share, no TURN/SFU; real cross-network microphone and screen testing incomplete",
+    "KLIPY shared test quota 100 API calls/hour; Spotify OAuth unconfigured; messages lack E2EE"
+  ]
+}

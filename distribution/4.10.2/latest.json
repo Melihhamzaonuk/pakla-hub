@@ -1,0 +1,6 @@
+{
+  "Version": "4.10.2",
+  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.10.2/PaklaHub-4.10.2.pakpatch",
+  "Sha256": "da9b3b5d7655a5ddec212937dcbc7ad69386a600a2c0bb7fbc93c4ebf365c945",
+  "Notes": "4.10.2: Açılış çökmesi düzeltildi. Yeni sürüm varsa açılışta belirgin Güncelleme hazır penceresi görünür; Güncellemeyi incele veya Daha sonra seçilebilir. Aynı sürüm oturumda bir kez gösterilir; pencere gizliyken bekler. İnternet ve güncelleme bildirimi tercihi gereklidir. Ses/ekran beta; KLIPY test kotası; Spotify OAuth yapılandırılmadı."
+}

@@ -1,10 +1,18 @@
-# Pakla Hub 4.10
+# Pakla Hub 4.10.2
 
 Sohbet, topluluklar, klipler ve bilgisayar araçları aynı uygulamada.
 
 [Windows x64 için indir](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)
 
-Mevcut kullanıcılar **Ayarlar → Güncellemeler → Güncelleme ara** ile 4.10.0 paketini yükleyebilir. Kütüphane ve hesap verileri korunur. Bildirimler açıksa açılışta ve uygulama açıkken altı saatte bir sürüm kontrol edilir. Kurulum kullanıcı onayıyla yapılır.
+Mevcut kullanıcılar **Ayarlar → Güncellemeler → Güncelleme ara** ile 4.10.2 paketini yükleyebilir. Kütüphane ve hesap verileri korunur. Bildirimler açıksa açılışta ve uygulama açıkken altı saatte bir sürüm kontrol edilir. Kurulum kullanıcı onayıyla yapılır.
+
+## Açılışta güncelleme bildirimi
+
+Güncelleme bildirimi tercihi açıkken Pakla, açılıştan kısa süre sonra resmi kanalı kontrol eder. Yeni sürüm bulunursa **Güncelleme hazır** penceresinde yenilikler görünür. **Güncellemeyi incele** uygulama içindeki güncelleme ekranını açar; **Daha sonra** aynı sürümün o oturumdaki tekrarını durdurur. Uygulama gizliyken pencere gösterilmez; geri açıldığında bekleyen bildirim görünür. Kurulum kendiliğinden başlamaz. Kontrol için internet gerekir; bağlantı hatası açılışı engellemez.
+
+## Açılış düzeltmesi
+
+4.10.2, ana sayfanın pencere hazır olmadan arka plan yenilemesi başlatmasından kaynaklanan açılış çökmesini giderir. Arka plan açık gerçek pencere başlangıcı üç kez sınandı. Önceki sürüm açılmıyorsa yukarıdaki güncel kurulumu indirip çalıştırabilirsin; uygulamayı kaldırman gerekmez.
 
 ## Yeni hızlı geçiş
 
@@ -16,7 +24,7 @@ Sohbet veya kanal başlığındaki bağlantı simgesini aç. Dar kanallarda **Di
 
 Bağlantılar alan adı ve tam adresiyle listelenir. Tekrarlanan adresler birleştirilir. Tam adresi inceleyip varsayılan tarayıcıda açmayı seçebilir veya mesajı alıntılayabilirsin. HTTP/HTTPS desteklenir; kimlik bilgisi taşıyan ve desteklenmeyen protokollü adresler listeye alınmaz. Bağlantılar kendiliğinden açılmaz. Uzak GIF'ler göster düğmesine basınca Klipy'den yüklenir.
 
-![Paylaşılan bağlantılar — örnek adresler ve test mesajları](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.10.0/Pakla-Paylasilanlar.png)
+![Paylaşılan bağlantılar — örnek adresler ve test mesajları](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.10.2/Pakla-Paylasilanlar.png)
 
 ## Çoklu klip düzenleme
 
@@ -24,7 +32,7 @@ Klipler ekranında **Çoklu seç** düğmesine bas. Kartı veya seçim kutusunu 
 
 Seçilen klipleri topluca favorilere ekle/çıkar veya bir koleksiyona ata. Boş koleksiyon adı atamayı kaldırır. Bu işlemler yalnızca metadatayı değiştirir; videolar taşınmaz veya yeniden kodlanmaz. Kaydetme başarısız olursa önceki değerler geri yüklenir.
 
-![Çoklu seçim — yerel test kapakları](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.10.0/Pakla-TopluKlipler.png)
+![Çoklu seçim — yerel test kapakları](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.10.2/Pakla-TopluKlipler.png)
 
 Önizlemelerdeki kişiler, klipler ve kapaklar test verileridir; kullanıcıya eklenmez. Gelen kutusu, sabit sohbetler, profil sekmeleri, geri/ileri ve Pakla araçları korunur.
 
