@@ -1,0 +1,6 @@
+{
+  "Version": "4.11.0",
+  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.11.0/PaklaHub-4.11.0.pakpatch",
+  "Sha256": "d149c84bdb50b05e385778bfc6349a2b153029f0412ad4f6eae75107ea13a8ca",
+  "Notes": "4.11: Windows hesabıyla şifrelenen yerel özel mesaj ve kanal taslakları, Ctrl+Shift+D taslak listesi, F1 kısayol rehberi ve ana sayfada taslak erişimi. Hesaplar ayrıdır; cihazlar arasında eşitleme yoktur. Açılış düzeltmesi ve güncelleme bildirimi korunur. Ses/ekran beta; KLIPY test kotası; Spotify OAuth yapılandırılmadı."
+}
