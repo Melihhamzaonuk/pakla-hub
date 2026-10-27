@@ -1,0 +1,34 @@
+{
+  "version": "4.12.0",
+  "date": "2026-10-27",
+  "sha256": {
+    "PaklaHub.exe": "d971829e0a0ab4c0d85eb0595ecde4ab340fd478c4e53457226d0077b0819417",
+    "PaklaHub-Kurulum.exe": "e63f1f175fd38eb98463bc07bb709ae3757fd763f177ec57655225b9af964fb9",
+    "PaklaHub-Updater.exe": "5772d3870cd361d79896e606df43e6b9a9aaf8aca52d4b06635e8b9b0e412be9",
+    "PaklaHub-4.12.0.pakpatch": "7d9d385fecf9c971295329f8a45c269247ac585a2d96286fe2ce0a56f0029e01"
+  },
+  "antivirus": {
+    "product": "Kaspersky 21.26",
+    "objects": 28,
+    "detected": 0,
+    "suspicions": 0,
+    "errors": 0
+  },
+  "authenticode": "NotSigned",
+  "patchSignature": "RSA-SHA256 original publisher key",
+  "checks": [
+    "Three real background-enabled startup fixtures; idle/active/idle header recording visibility tested with simulated capture state, no recording",
+    "12 product pages x five requested sizes; game-card play/edit/favorite controls additionally checked for vertical clipping",
+    "4.10 feature fixture and 4.11 protected draft fixture passed against 4.12",
+    "App/setup self-tests; signed patch integrity/apply/rollback tests",
+    "Original 4.11 updater verifies/applies 4.12 and preserves library/history",
+    "Installed 4.12 signed patch; 22 existing user-data files unchanged except expected update-history metadata"
+  ],
+  "limitations": [
+    "Local draft persistence: newest 100 entries per type; not cloud synchronized; logout does not delete stored drafts; corrupt vault is preserved and auto-save disabled for that owner/session",
+    "No live people messaging or recording in fixtures",
+    "Voice beta six peers/one share/no TURN or SFU; real cross-network testing incomplete",
+    "KLIPY shared testing quota 100 API calls/hour; Spotify OAuth unconfigured; messages are not E2EE",
+    "Authenticode certificate unavailable; separate RSA-SHA256 patch signature"
+  ]
+}
