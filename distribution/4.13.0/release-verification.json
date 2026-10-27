@@ -1,0 +1,34 @@
+{
+  "version": "4.13.0",
+  "date": "2026-10-27",
+  "sha256": {
+    "PaklaHub.exe": "9aa329beee05280e3d04cb876f7ebb2cb34316581c4444ddace2088983b93723",
+    "PaklaHub-Kurulum.exe": "d860ae8724ade57496458b2b2a5425691270403acd085942266d94b5f985a68b",
+    "PaklaHub-Updater.exe": "9919c1cf7b02de02a415ba7a5e6295fb4ec8cac9f5bdaf5109cffe79ec1c267a",
+    "PaklaHub-4.13.0.pakpatch": "9f684096f4b13d78802fff5af0a4a52eab44de0718e0697f2c305e21ca0c1457"
+  },
+  "antivirus": {
+    "product": "Kaspersky 21.26",
+    "objects": 36,
+    "detected": 0,
+    "suspicions": 0,
+    "errors": 0
+  },
+  "authenticode": "NotSigned",
+  "patchSignature": "RSA-SHA256 original publisher key",
+  "checks": [
+    "Eight native quick-search types; scope isolation; true 101 total vs 80 displayed; stale-result clearing; Ctrl+L and narrow input controls",
+    "Loaded DM search: Turkish folding, AND tokens, sender filter, cross-conversation exclusion, no-match, narrow rows and name/time separation; draft unchanged",
+    "Background-enabled startup x3, idle/active header visibility fixture; 12 pages x five requested window sizes including game action bounds",
+    "Prior shared content, bulk clips and protected draft fixtures passed against 4.13",
+    "App/setup self-tests; RSA patch integrity/apply/rollback and original 4.12 updater compatibility",
+    "Installed 4.13 patch with existing user-data hashes checked; no forced shutdown or app launch"
+  ],
+  "limitations": [
+    "Local draft persistence: newest 100 entries per type; not cloud synchronized; logout does not delete stored drafts; corrupt vault is preserved and auto-save disabled for that owner/session",
+    "No live people messaging or recording in fixtures",
+    "Voice beta six peers/one share/no TURN or SFU; real cross-network testing incomplete",
+    "KLIPY shared testing quota 100 API calls/hour; Spotify OAuth unconfigured; messages are not E2EE",
+    "Authenticode certificate unavailable; separate RSA-SHA256 patch signature"
+  ]
+}

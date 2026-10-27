@@ -1,0 +1,6 @@
+{
+  "Version": "4.13.0",
+  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.13.0/PaklaHub-4.13.0.pakpatch",
+  "Sha256": "9f684096f4b13d78802fff5af0a4a52eab44de0718e0697f2c305e21ca0c1457",
+  "Notes": "4.13: Ctrl+K tür filtreleri, doğru toplam sonuç sayısı, Ctrl+L ile arama alanına dönüş. Özel mesaj aramasında Türkçe karakterli çok sözcüklü eşleştirme ve gönderen filtresi. Dar arama pencereleri ve mesaj başlıkları düzenlendi. Önceki işlevler korunur. Ses/ekran beta; KLIPY test kotası; Spotify OAuth yapılandırılmadı."
+}

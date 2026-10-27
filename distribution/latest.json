@@ -1,6 +1,6 @@
 {
-  "Version": "4.12.0",
-  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.12.0/PaklaHub-4.12.0.pakpatch",
-  "Sha256": "7d9d385fecf9c971295329f8a45c269247ac585a2d96286fe2ce0a56f0029e01",
-  "Notes": "4.12: Daha kompakt ana sayfa, sade üst çubuk, nötr yüzeyler ve yenilenen taslak listesi. Boş taslak kartı ve ana sayfadaki tekrar eden araç alanı kaldırıldı. Kayıt simgesi tampon açıkken görünür; kayıt ayarları Klipler bölümündedir. Taslaklar, F1 ve önceki işlevler korunur. Ses/ekran beta; KLIPY test kotası; Spotify OAuth yapılandırılmadı."
+  "Version": "4.13.0",
+  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.13.0/PaklaHub-4.13.0.pakpatch",
+  "Sha256": "9f684096f4b13d78802fff5af0a4a52eab44de0718e0697f2c305e21ca0c1457",
+  "Notes": "4.13: Ctrl+K tür filtreleri, doğru toplam sonuç sayısı, Ctrl+L ile arama alanına dönüş. Özel mesaj aramasında Türkçe karakterli çok sözcüklü eşleştirme ve gönderen filtresi. Dar arama pencereleri ve mesaj başlıkları düzenlendi. Önceki işlevler korunur. Ses/ekran beta; KLIPY test kotası; Spotify OAuth yapılandırılmadı."
 }
