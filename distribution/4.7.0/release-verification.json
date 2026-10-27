@@ -1,0 +1,39 @@
+{
+  "version": "4.7.0",
+  "date": "2026-10-27",
+  "channel": "public update feed",
+  "sha256": {
+    "PaklaHub.exe": "0319b9a88018411fd8874eac9be87f31ed4c03376bf560927bb068a9ca270d2e",
+    "PaklaHub-Kurulum.exe": "f12404354af21b13b24d624662ed7d4880c87c55117ec912782857926c87ee24",
+    "PaklaHub-Updater.exe": "a714c7deb5d610b58ff09e2ba7c781152d7f853b15f561e322a776b58983d383",
+    "PaklaHub-4.7.0.pakpatch": "2e043d3c04eb7af0f05101ee44d1f2958c0060b02cf1c84fca2bd3fe9719df46"
+  },
+  "antivirus": {
+    "processed": 28,
+    "detected": 0,
+    "errors": 0,
+    "product": "Kaspersky 21.26",
+    "suspicions": 0
+  },
+  "authenticode": "NotSigned",
+  "patchSignature": "RSA-SHA256 original publisher key",
+  "checks": [
+    "QualityProbe: discovery loading/error/retry/out-of-order responses, history reset, narrow header overflow activation, bounded drafts, new-DM jump, focus/read and stale-generation guards, cancelled voice-join cleanup",
+    "Voice media race tests with fake devices: duplicate microphone requests and stale permission results after leave/rejoin",
+    "Native server/settings/discovery UI: seven pages at five requested sizes; minimum window constraints apply",
+    "Conversation reactions, edits, pins, search, quotes, channel isolation, retry nonce and draft privacy; fixture HTTP",
+    "Protected sessions: restart, offline reconnect, revoked session, rotation, remember-off and logout/refresh race; fixture HTTP",
+    "Real WebView2 initialization, simulated process-failure permission reset and retry ready event; forced native handles; no actual microphone or screen",
+    "Two real WebView2 RTCPeerConnections exchanged synthetic audio and video",
+    "Application feature/navigation, installer extraction/hash/shortcut/reinstall/data preservation self-tests",
+    "Signed patch tamper/traversal/downgrade rejection, apply, rollback and user data preservation",
+    "Original 2.1, 4.3 and 4.6 updater compatibility"
+  ],
+  "limitations": [
+    "Some hidden WebView fixture startups timed out; explicit handle retry and fresh dual-view test passed",
+    "Voice/screen beta: six participants, one share, no TURN/SFU; cross-network real microphone/screen-picker test incomplete",
+    "KLIPY shared test quota 100 API calls/hour; no production approval",
+    "Messages do not have end-to-end encryption",
+    "Spotify OAuth unconfigured and authenticated playback not verified"
+  ]
+}
