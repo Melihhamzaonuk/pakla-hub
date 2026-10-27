@@ -1,6 +1,6 @@
 {
-  "Version": "4.3.0",
-  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.3.0/PaklaHub-4.3.0.pakpatch",
-  "Sha256": "0c584c97bac16dace275b2286ddc63928e10052c3c27bc9457d2548b92d7f29e",
-  "Notes": "4.3: Sarı monitör çerçevesi olmadan DXGI kayıt, yenilenen klip stüdyosu, gömülü ve güncellenen Pakla simgeleri. Ortak sunucu düzenleme, özel ekip rolleri, kategoriler, duyuru kanalları, başlangıç şablonları ve Keşfet. Uygulama içinde Spotify web görünümü; Google/Apple tarayıcı oturumları otomatik taşınmaz."
+  "Version": "4.6.0",
+  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.6.0/PaklaHub-4.6.0.pakpatch",
+  "Sha256": "4f711522d0673dffb5e0590e4866e69d9f86bc91f68c7b295ebaf387e51f5a3b",
+  "Notes": "4.6: Yeni kompakt Discord benzeri sohbet/sunucu düzeni; kalıcı oturum ve sunucu araması düzeltmeleri; sohbet içinde arama, kanallarda GIF/emoji ve canlı rozetler. Ses/ekran paylaşımı beta: 6 kişi, tek paylaşım, TURN yok. KLIPY beta: ortak 100 API isteği/saat. Spotify OAuth yapılandırılmadı."
 }

@@ -1,0 +1,38 @@
+{
+  "version": "4.6.0",
+  "date": "2026-10-27",
+  "channel": "public update feed",
+  "sha256": {
+    "PaklaHub.exe": "8c955a3034f91d4d910f41e6e660a2b484880c3d5cdf30165b13b386d96e6de9",
+    "PaklaHub-Kurulum.exe": "9935c29314a1d0570e9ade4c8b7835d548916b5a66356ceb815be39cae18c794",
+    "PaklaHub-Updater.exe": "d22654e070c04c5f66b605cfdf8690cc61de7855b912cfd048f08aaa7676bc08",
+    "PaklaHub-4.6.0.pakpatch": "4f711522d0673dffb5e0590e4866e69d9f86bc91f68c7b295ebaf387e51f5a3b"
+  },
+  "antivirus": {
+    "product": "Kaspersky 21.26",
+    "detected": 0,
+    "errors": 0,
+    "processed": 28,
+    "suspicions": 0
+  },
+  "authenticode": "NotSigned",
+  "patchSignature": "RSA-SHA256 original publisher key",
+  "checks": [
+    "Server/settings/discovery native UI, seven pages at five requested sizes; minimum window constraints apply",
+    "Live unread badges, loaded-DM search and no-match clearing, channel emoji draft preservation and no automatic send",
+    "Conversation reactions, edits, pins, search, quotes, channel isolation, retry nonce and draft privacy with fixture HTTP",
+    "DPAPI remembered-session restart, offline reconnect, revocation and logout/refresh race with fixture HTTP",
+    "33 vector icons, real KLIPY catalog/previews and inline layout; mock accounts only",
+    "Installer payload hashes, shortcut icons, reinstall and data preservation",
+    "Signed patch tamper/traversal/downgrade rejection, apply/rollback and data preservation",
+    "Original 2.1, 4.3, 4.4 and 4.5 updater compatibility",
+    "Application feature/navigation self-tests",
+    "Two visible WebView2 peers exchanged synthetic oscillator audio and canvas video. Earlier hidden-tab fixture timed out because its second view did not initialize; side-by-side fixture passed without product changes. No real microphone or screen captured."
+  ],
+  "limitations": [
+    "Voice/screen beta: six peers, one share, no TURN/SFU; cross-network user microphone/screen-picker test incomplete",
+    "KLIPY shared test quota 100 API calls/hour; no production approval",
+    "No end-to-end encryption for messages",
+    "Spotify OAuth not configured and authenticated playback not verified"
+  ]
+}
