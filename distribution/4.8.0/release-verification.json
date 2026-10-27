@@ -1,0 +1,39 @@
+{
+  "version": "4.8.0",
+  "date": "2026-10-27",
+  "channel": "public update feed",
+  "sha256": {
+    "PaklaHub.exe": "03075570f9a707992515671aa58b7a47d088f427e61bec4d029ec5a01537a7ba",
+    "PaklaHub-Kurulum.exe": "199aa788d73f612d757ee406c06b8faa706cf09867650d8db8aef42d6a013b47",
+    "PaklaHub-Updater.exe": "38e2ec2d8494f4b710be27cdb032213e67c0d5909d7d3da105ac01cd4cd2cbfe",
+    "PaklaHub-4.8.0.pakpatch": "6d8257f4afb25177cb13b04d096982e767524161826e492e800b4971713086c0"
+  },
+  "antivirus": {
+    "processed": 36,
+    "errors": 0,
+    "detected": 0,
+    "suspicions": 0,
+    "product": "Kaspersky 21.26"
+  },
+  "authenticode": "NotSigned",
+  "patchSignature": "RSA-SHA256 original publisher key",
+  "checks": [
+    "ProductProbe: eleven pages at five requested sizes; minimum window constraints apply; native 144 DPI plus simulated 96/192 DPI layout settings",
+    "Native home/chat/server/clip/profile/library/tools renders inspected; all artwork and people are fixture data",
+    "Header bounds and non-overlap, compact section switcher, clip search/favorites/empty states, profile tabs",
+    "Shared/persisted/reset sidebar width; palette no-match, owned clip results, selected command navigation",
+    "QualityProbe: discovery loading/error/retry/out-of-order, history reset, narrow overflow activation, bounded drafts, new-DM jump/read/focus guards, stale identity, abandoned voice join",
+    "Conversation reactions/edits/pins/search/quotes/channel isolation/retry nonce/drafts and account logout privacy; fixture HTTP",
+    "DPAPI session restart, offline reconnect, revocation, rotation, remember-off and logout/refresh race; fixture HTTP",
+    "Feature and personal-data self-tests; installer payload/shortcut/reinstall/data preservation",
+    "Signed patch tamper/traversal/downgrade rejection, apply, rollback and user data preservation",
+    "Original 2.1, 4.3 and 4.7 updater compatibility"
+  ],
+  "limitations": [
+    "No real recording or game launch performed by product UI fixtures",
+    "Voice/media implementation unchanged from 4.7; cross-network real microphone/screen-picker tests incomplete; max six, one share, no TURN/SFU",
+    "KLIPY shared test quota 100 API calls/hour; no production approval",
+    "Messages do not have end-to-end encryption",
+    "Spotify OAuth unconfigured and authenticated playback not verified"
+  ]
+}
