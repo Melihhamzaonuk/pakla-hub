@@ -1,6 +1,6 @@
 {
-  "Version": "4.8.0",
-  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.8.0/PaklaHub-4.8.0.pakpatch",
-  "Sha256": "6d8257f4afb25177cb13b04d096982e767524161826e492e800b4971713086c0",
-  "Notes": "4.8: Yenilenen ürün tasarımı; sabit ana gezinme, gerçek ana sayfa, içerik odaklı klip kütüphanesi, ayrı kayıt ayarları, profil sekmeleri, Ctrl+K araması ve hatırlanan sürüklenebilir sohbet listeleri. Ses/ekran beta: 6 kişi, tek paylaşım, TURN yok. KLIPY ortak test kotası 100 API isteği/saat. Spotify OAuth yapılandırılmadı."
+  "Version": "4.9.0",
+  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.9.0/PaklaHub-4.9.0.pakpatch",
+  "Sha256": "6cd686461b4b4e5757c7e3cadb231d661132b0049ecabca068de529ff729ec8a",
+  "Notes": "4.9: Gelen kutusu ve okunmamış rozetleri; hesaba özel sabit sohbetler ve okunmamış filtresi; Alt+Sol/Sağ ile geri/ileri; dosyayı taşımayan klip koleksiyonları; hesap değişiminde özel görünüm ve kayıt sahibi koruması. Ses/ekran beta: 6 kişi, tek paylaşım, TURN yok. KLIPY ortak test kotası 100 API isteği/saat. Spotify OAuth yapılandırılmadı."
 }
