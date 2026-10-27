@@ -1,33 +1,38 @@
-# Pakla Hub 4.9
+# Pakla Hub 4.10
 
 Sohbet, topluluklar, klipler ve bilgisayar araçları aynı uygulamada.
 
 [Windows x64 için indir](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)
 
-Mevcut kullanıcılar **Ayarlar → Güncellemeler → Güncelleme ara** ile 4.9.0 paketini yükleyebilir. Kütüphane ve hesap verileri korunur. Bildirimler açıksa açılışta ve uygulama açıkken altı saatte bir sürüm kontrol edilir. Kurulum kullanıcı onayıyla yapılır.
+Mevcut kullanıcılar **Ayarlar → Güncellemeler → Güncelleme ara** ile 4.10.0 paketini yükleyebilir. Kütüphane ve hesap verileri korunur. Bildirimler açıksa açılışta ve uygulama açıkken altı saatte bir sürüm kontrol edilir. Kurulum kullanıcı onayıyla yapılır.
 
-## 4.9 yenilikleri
+## Yeni hızlı geçiş
 
-- **Gelen kutusu:** üst çubuktaki kutu simgesinden okunmamış özel mesajlara, arkadaşlık isteklerine ve kanallara ulaş. Rozetler bekleyen öğeleri gösterir. Veriler uygulama açıkken periyodik olarak yenilenir.
-- **Sabit sohbetler:** sohbet listesinde sağ tıkla veya sohbet seçeneklerinden sabitle. En fazla 30 sabit sohbet bu cihazda, hesaba özel saklanır.
-- **Okunmamış filtresi:** sohbet listesindeki Tümü/Yeni düğmeleriyle filtrele; yazdığın taslak ve açık sohbet korunur.
-- **Geri/ileri:** yerel uygulama ekranlarında Alt+Sol ve Alt+Sağ. Açık sohbet ve sunucu bağlamı hatırlanır; geçmiş hesap değişiminde temizlenir. Ctrl+K aramasından da bu komutları bulabilirsin.
-- **Klip koleksiyonları:** klibin üç nokta menüsündeki düzenleme ekranında koleksiyon adı yaz. Kütüphanedeki koleksiyon filtresiyle bul. Boş ad koleksiyonu kaldırır. Video dosyaları taşınmaz veya yeniden kodlanmaz.
-- **Hesap korumaları:** eski hesabın özel ekranları ve uygulama içi diyalogları kapanır; geç gelen sosyal yanıtlar uygulanmaz. Kayıt tamponu, kaydı başlatan hesaba bağlı kalır. Kayıt sürerken çıkış düğmesi önce kaydetmeni ve durdurmanı ister.
+**Ctrl+K** artık yüklenmiş arkadaş, sunucu ve kanal listelerinde de arar. `@isim` arkadaşları, `#kanal` kanalları süzer. Türkçe karakterler ve birden fazla arama sözcüğü desteklenir. Listeleri yenile düğmesi güncel verileri yeniden ister. Sonuç seçmek sohbeti veya kanalı açar; ses kanalına otomatik katılım yapılmaz.
 
-4.8'in sabit gezinmesi, klip önizlemeleri, profil sekmeleri ve ayarlanabilir sohbet genişliği korunur. Klipler kendiliğinden paylaşılmaz veya yüklenmez.
+## Paylaşılan bağlantılar ve GIF'ler
 
-![Gelen kutusu — test kişileri ve mesaj sayıları](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.9.0/Pakla-GelenKutusu.png)
+Sohbet veya kanal başlığındaki bağlantı simgesini aç. Dar kanallarda **Diğer kanal işlemleri** menüsündedir. Yalnızca o konuşmada yüklenmiş mesajlar taranır; eski içerik için önce mesaj geçmişini yükle.
 
-![Klip koleksiyonları — test kapakları](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.9.0/Pakla-Koleksiyonlar.png)
+Bağlantılar alan adı ve tam adresiyle listelenir. Tekrarlanan adresler birleştirilir. Tam adresi inceleyip varsayılan tarayıcıda açmayı seçebilir veya mesajı alıntılayabilirsin. HTTP/HTTPS desteklenir; kimlik bilgisi taşıyan ve desteklenmeyen protokollü adresler listeye alınmaz. Bağlantılar kendiliğinden açılmaz. Uzak GIF'ler göster düğmesine basınca Klipy'den yüklenir.
 
-Bu görsellerdeki kişiler, kapaklar ve klipler yerel test verileridir; uygulamayla kullanıcıya eklenmez.
+![Paylaşılan bağlantılar — örnek adresler ve test mesajları](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.10.0/Pakla-Paylasilanlar.png)
+
+## Çoklu klip düzenleme
+
+Klipler ekranında **Çoklu seç** düğmesine bas. Kartı veya seçim kutusunu kullan; **Bu sayfayı seç** ile sayfanın tamamını seçebilirsin. Seçim, sayfalar arasında korunur; filtre değişiminde temizlenir. Başka ekrana veya hesaba geçince seçim modu kapanır.
+
+Seçilen klipleri topluca favorilere ekle/çıkar veya bir koleksiyona ata. Boş koleksiyon adı atamayı kaldırır. Bu işlemler yalnızca metadatayı değiştirir; videolar taşınmaz veya yeniden kodlanmaz. Kaydetme başarısız olursa önceki değerler geri yüklenir.
+
+![Çoklu seçim — yerel test kapakları](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.10.0/Pakla-TopluKlipler.png)
+
+Önizlemelerdeki kişiler, klipler ve kapaklar test verileridir; kullanıcıya eklenmez. Gelen kutusu, sabit sohbetler, profil sekmeleri, geri/ileri ve Pakla araçları korunur.
 
 ## Mevcut sınırlar
 
-Ses/ekran beta: 6 kişi, tek paylaşım; TURN/SFU yok, bazı ağlar bağlanamayabilir. Farklı ağlarda gerçek mikrofon ve ekran seçimi testi tamamlanmadı. KLIPY ortak test kotası saatte 100 API isteğidir. Spotify OAuth yapılandırılmadı; giriş sonrası tam oynatma doğrulanmadı. Mesajlarda uçtan uca şifreleme yoktur. Internet Booster bağlantı ölçümü yapar; VPN değildir. Oyun belleğine ve anti-cheat sistemlerine müdahale edilmez.
+Ses/ekran beta: 6 kişi, tek paylaşım; TURN/SFU yok, bazı ağlar bağlanamayabilir. Farklı ağlarda gerçek mikrofon ve ekran seçimi testi tamamlanmadı. KLIPY ortak test kotası saatte 100 API isteğidir. Spotify OAuth yapılandırılmadı; giriş sonrası tam oynatma doğrulanmadı. Mesajlarda uçtan uca şifreleme yoktur. Klipler kendiliğinden buluta yüklenmez. Internet Booster bağlantı ölçümü yapar; VPN değildir. Oyun belleğine ve anti-cheat sistemlerine müdahale edilmez.
 
-Windows 10/11 x64, .NET Framework 4.8 ve ses/Spotify için Edge WebView2 Runtime gerekir. Patch RSA-SHA256 ile doğrulanır. Windows Authenticode yayıncı sertifikası henüz yoktur. Son dosyaların Kaspersky taramasında 28 nesne, 0 tespit, 0 şüphe ve 0 hata görüldü; tüm güvenlik ürünleri için garanti değildir.
+Windows 10/11 x64, .NET Framework 4.8 ve ses/Spotify için Edge WebView2 Runtime gerekir. Patch RSA-SHA256 ile doğrulanır. Windows Authenticode yayıncı sertifikası henüz yoktur. Son dosyaların Kaspersky taramasında 36 nesne, 0 tespit, 0 şüphe ve 0 hata görüldü; tüm güvenlik ürünleri için garanti değildir.
 
 Kontroller: QUALITY-REPORT.md, release-verification.json, SHA256SUMS.txt, antivirus-report.txt ve SECURITY.md. Üçüncü taraf lisansları uygulamada ve THIRD-PARTY-LICENSES.txt dosyasındadır.
 

@@ -1,0 +1,37 @@
+{
+  "version": "4.10.0",
+  "date": "2026-10-27",
+  "channel": "public update feed",
+  "sha256": {
+    "PaklaHub.exe": "1350c80fa52b35a3cc4c293a047cc635d9d870f66d42c7c2407c358a623f9854",
+    "PaklaHub-Kurulum.exe": "32e5118df28fb486ee83af35a4e541bbe6f527c92f9aebf845437b6e7b9c469f",
+    "PaklaHub-Updater.exe": "35f6d67d64502ee18fdde6e5e2214fd29a039348d4ac3a09761e28a244dcb078",
+    "PaklaHub-4.10.0.pakpatch": "078dd6e5334fbc0be099d3d66a95299d05907decc8b707ceac3040adc2e54886"
+  },
+  "antivirus": {
+    "errors": 0,
+    "product": "Kaspersky 21.26",
+    "suspicions": 0,
+    "processed": 36,
+    "detected": 0
+  },
+  "authenticode": "NotSigned",
+  "patchSignature": "RSA-SHA256 original publisher key",
+  "checks": [
+    "Turkish/token/@friend/#channel matching; native channel switching and draft preservation",
+    "URL validation, punctuation/IDN/user-info rejection; link/copy vectors rendered",
+    "Loaded-conversation shared links deduplication, cancelled full URL review, lazy remote GIF state, no-match, narrow rows and quote draft",
+    "Bulk favorite/collection metadata: owner scope, filter clearing, multi-page selection, save-failure rollback, invalid names, account reset and unchanged video bytes",
+    "12 native pages x 5 requested sizes; native 144 DPI plus simulated 96/192 DPI; minimum constraints apply",
+    "Previous inbox, pins, navigation, collection, identity views, stale-response, offline, discovery, message and protected-session fixtures passed",
+    "Installer and local-data self-tests; RSA patch tamper/traversal/downgrade/apply/rollback tests passed",
+    "Original 2.1, 4.3 and 4.9 updater compatibility"
+  ],
+  "limitations": [
+    "No real recording, external URL opening, remote GIF fetch, export, deletion, game launch or people messaging in fixtures",
+    "Shared content covers only loaded messages",
+    "Voice beta six peers, one share, no TURN/SFU; cross-network real microphone/screen-picker tests incomplete",
+    "KLIPY shared testing quota 100 API calls/hour; no production approval",
+    "Messages lack end-to-end encryption; Spotify OAuth unconfigured/authenticated playback unverified"
+  ]
+}
