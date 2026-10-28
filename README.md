@@ -1,26 +1,31 @@
-# Pakla Hub 4.15
+# Pakla Hub 4.18
 
 Ekibin, anların ve araçların. Windows x64 masaüstü uygulaması.
 
 [Windows için indir](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)
 
-Mevcut kullanıcılar Ayarlar → Güncellemeler → Güncelleme ara ile 4.15.0 paketini yükleyebilir. Güncelleme bildirimleri açıksa yeni sürüm açılışta duyurulur; kurulum kullanıcı seçimiyle başlar.
+Mevcut kullanıcılar **Ayarlar → Güncellemeler → Güncelleme ara** yolundan 4.18.0'a geçebilir. Güncelleme bildirimleri açıksa yeni sürüm açılış kontrolünde duyurulur; yükleme kullanıcı seçimiyle başlar.
 
-## Bu sürümde
+## Daha düzenli bir çalışma alanı
 
-- Açılışta simge yenileme ve açılır menü kapanışı sırasında saptanan iki çökme nedeni düzeltildi.
-- Topluluklara banner/ikonlu başlık, kanal araması ve kolay metin, duyuru, ses kanalı oluşturma eklendi.
-- Kanal izinlerinde herkes ve özel roller için görme, mesaj gönderme, bağlanma, konuşma, kamera ve ekran paylaşma ayrı düzenlenebilir. Kurucu ve yöneticiler erişimini korur.
-- DM’den sesli ve görüntülü arama davetleri gönderilebilir. Karşı taraf kabul eder veya reddeder; mikrofon ve kamera kullanıcı açana kadar kapalıdır. İki taraf da 4.15 kullanmalıdır.
-- DM, grup, topluluk ve kanal bildirimleri süreli veya süresiz susturulabilir. Tercihler bu cihazda hesap bazında saklanır.
-- İnternet aracı otomatik bağlantı/DNS tanısı ve kullanıcı seçimiyle onarım sunar. Özel arkadaş grupları, kamera ve ekranı birlikte paylaşma, cihaz seçimi ve katılımcı ses ayarı bulunur.
+Geniş ekranda sabit sol gezinme, sohbetlerde kompakt simgeler, dar pencerede bölüm menüsü. Ana sayfadan arkadaş sohbetlerine, kliplere ve araçlara geç. Üstte geri/ileri ve Ctrl+K arama; Ctrl+1–6 ile ana bölümlere ulaş.
 
-Sohbet, GIF’ler, yerel klip kütüphanesi, koleksiyonlar, hızlı arama, şifreli yerel taslaklar ve bilgisayar araçları korunur. Temizlik seçerek yapılır; FPS veya internet hızı artışı garanti edilmez.
+![Yeni ana ekran — örnek test verileri](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.18.0/Pakla-AnaSayfa.png)
+
+## Ekibinle aynı yerde
+
+Sohbet ve kanallarda iki satırlı başlık, görünür GIF düğmesi, Enter/Shift+Enter açıklaması; koyu menüler ve ortalanmış komut simgeleri. Yüksek DPI'da kalıtılan yazının ikinci kez büyütülmesi düzeltildi.
+
+![Topluluk görünümü — örnek test verileri](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.18.0/Pakla-Topluluk.png)
+
+Çoklu rol, kanal/görünüm yetkileri, moderasyon hiyerarşisi korumaları, kişi bazlı kanal istisnaları ve canlı kategori izin mirası bu sürümde bulunur. Rol atama/oluşturma kurucuda kalır. DM sesli/görüntülü davetleri, arkadaş grupları ve süreli/süresiz sessize alma desteklenir. Yerel mikrofon testi, düşük kamera yükü ve görüşme bağlantı ölçümleri ayarlardadır.
+
+Klipler, oyun/uygulama kitaplığı, yerel müzik, temizlik ve bağlantı araçları korunur. Temizlik seçerek yapılır; FPS veya internet hızı artışı garanti edilmez.
 
 ## Geliştirme durumu
 
-Ses, görüntü ve ekran paylaşımı beta: en fazla altı kişi, aynı anda bir ekran paylaşımı. TURN/SFU yok; bazı ağlarda bağlantı kurulamayabilir. İki istemcili sentetik medya ve yeniden bağlantı testleri geçti; altı kişilik yük ve gerçek kişisel kamera/mikrofon testleri tamamlanmadı. Kanal erişimi ve ses sinyalleri sunucuda denetlenir; doğrudan P2P medya için değiştirilmiş istemcileri filtreleyen bir SFU bulunmaz.
+Ses/görüntü/ekran paylaşımı beta: en fazla altı kişi, aynı anda bir ekran paylaşımı. TURN/SFU yok; bazı ağlarda bağlantı kurulamayabilir. İki istemcili sentetik medya testleri geçti; altı kişilik yük, gerçek kişisel kamera/mikrofon ve farklı ağ testleri tamamlanmadı. KLIPY ortak test kotası 100 çağrı/saat. Spotify OAuth yapılandırılmadı. Mesajlar uçtan uca şifreli değil. Windows yayıncı sertifikası yok; patch paketleri ayrı RSA-SHA256 imzasıyla doğrulanır.
 
-KLIPY ortak test kotası 100 API çağrısı/saat. Spotify OAuth yapılandırılmadı. Mesajlar uçtan uca şifreli değil. Windows yayıncı sertifikası bulunmuyor; patch paketleri ayrı RSA-SHA256 imzasıyla doğrulanır.
+[Doğrulama ve devam eden sınırlar](distribution/4.18.0/QUALITY-REPORT.md) · [Sürüm notları](distribution/4.18.0/RELEASE.md)
 
 Destek: supportpakla@gmail.com
