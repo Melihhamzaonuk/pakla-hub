@@ -1,6 +1,6 @@
 {
-  "Version": "4.15.0",
-  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.15.0/PaklaHub-4.15.0.pakpatch",
-  "Sha256": "d8eaedf1e48338f4403be4517d67b305e51371e17235ecc4fda1770dfa93a6ef",
-  "Notes": "4.15: Açılış ve menü çökme düzeltmeleri; bannerlı topluluklar, kolay ses kanalı oluşturma ve rol bazlı kanal izinleri. DM sesli/görüntülü arama davetleri; sohbet, grup ve topluluk bazında sessize alma. Ses/görüntü beta; bazı ağlarda TURN gerekir."
+    "Version":  "4.18.0",
+    "Url":  "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.18.0/PaklaHub-4.18.0.pakpatch",
+    "Sha256":  "72fe8f17fa5f1809146bd20e148ccb8e51ed22ddd297b7bfd5ea52fcff867885",
+    "Notes":  "4.18: Yeni ana ekran ve uyarlanabilir gezinme; Ctrl+1–6, geri/ileri ve hızlı arama. İki satırlı sohbet başlıkları, görünür GIF düğmesi, koyu menüler, ortalanmış simgeler ve yüksek DPI düzeltmesi. Çoklu rol, kategori/kişi izinleri ve yerel cihaz kontrolleri dahil. Ses/görüntü beta."
 }
