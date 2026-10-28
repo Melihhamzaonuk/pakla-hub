@@ -1,6 +1,6 @@
 {
-    "Version":  "4.18.0",
-    "Url":  "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.18.0/PaklaHub-4.18.0.pakpatch",
-    "Sha256":  "72fe8f17fa5f1809146bd20e148ccb8e51ed22ddd297b7bfd5ea52fcff867885",
-    "Notes":  "4.18: Yeni ana ekran ve uyarlanabilir gezinme; Ctrl+1–6, geri/ileri ve hızlı arama. İki satırlı sohbet başlıkları, görünür GIF düğmesi, koyu menüler, ortalanmış simgeler ve yüksek DPI düzeltmesi. Çoklu rol, kategori/kişi izinleri ve yerel cihaz kontrolleri dahil. Ses/görüntü beta."
+    "Version":  "4.19.0",
+    "Url":  "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.19.0/PaklaHub-4.19.0.pakpatch",
+    "Sha256":  "cd94e406cbf7c4ef58f765728fb09b516c094eb4a0bb77739c533806385d127b",
+    "Notes":  "4.19: Kanal, kategori ve rol kaydındaki JSON biçim hatası düzeltildi. Tek sunucu şeridi, kompakt sunucu menüsü, görünür kanal/kategori oluşturma, özel kanal, izinleriyle çoğaltma, sıralama ve yavaş mod. Kategori izinleri, eşitleme, yönetim geçmişi ve kayıt sonrası yenileme düzeltildi. Ses/görüntü beta."
 }
