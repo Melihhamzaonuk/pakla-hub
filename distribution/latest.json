@@ -1,6 +1,6 @@
 {
-    "Version":  "4.21.0",
-    "Url":  "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.21.0/PaklaHub-4.21.0.pakpatch",
-    "Sha256":  "4d56676820dedf850f078f70a83fa6fe82c570febdcd34b96d0df05d2cca09bf",
-    "Notes":  "4.21: işlem sesleri ve ayrı ses kontrolleri; 8 yayın kalitesi; hafif çalışma ve azaltılmış hareket; DM/topluluk son mesaja git; yerel klip oynatma ve kırpma; bot doğrulaması ve sunucu spam sınırları. Yeniden giriş için güncel sürüm gerekir."
+    "Version":  "4.21.1",
+    "Url":  "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.21.1/PaklaHub-4.21.1.pakpatch",
+    "Sha256":  "bae2c7690821defdfc11869b1910118f3fb38c3ea95703f77a8cd83d4272d9b4",
+    "Notes":  "4.21.1: işlem sesleri, 8 yayın kalitesi, hafif çalışma, yerel klip oynatma/kırpma, DM/topluluk gezinmesi ve etkin bot koruması; dar ayar metinleri sadeleştirildi. Yeniden giriş için güncel sürüm gerekir."
 }
