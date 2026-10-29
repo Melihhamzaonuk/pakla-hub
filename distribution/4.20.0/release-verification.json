@@ -1,0 +1,43 @@
+{
+  "version": "4.20.0",
+  "verifiedUtc": "2026-10-29T00:28:08.0666980Z",
+  "published": true,
+  "commit": "7b7038bca1e343ada3e06d0c9b805b0b06c505de",
+  "stableFeedVerified": true,
+  "stableInstallerVerified": true,
+  "versionedAssets": [
+    {
+      "name": "PaklaHub-Kurulum.exe",
+      "url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.20.0/PaklaHub-Kurulum.exe",
+      "sha256": "5d99d2596e21047c607762666ebde97d8ac747ac2d7ed680ef82b8b1c48715f1",
+      "verified": true
+    },
+    {
+      "name": "PaklaHub-4.20.0.pakpatch",
+      "url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.20.0/PaklaHub-4.20.0.pakpatch",
+      "sha256": "f74e6da3b302e4fc8273fc5db14300c711d10b8dcc080f309cc19274464b17a2",
+      "verified": true
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.20.0/SHA256SUMS.txt",
+      "sha256": "0c0ce8ede8e7a8f5ad388a24aef373f40a5c2a7f9378332e00d4784d5036a149",
+      "verified": true
+    },
+    {
+      "name": "QUALITY-420.md",
+      "url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.20.0/QUALITY-420.md",
+      "sha256": "debabe9bdb6fb2a271df33a5a11f37742ead99877443093685e13e11b61ef426",
+      "verified": true
+    },
+    {
+      "name": "DM-Gorusme.png",
+      "url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.20.0/DM-Gorusme.png",
+      "sha256": "da5a9668d6332d039499db02988d470d35d1a79cde72da6a5ba917e2ad10502d",
+      "verified": true
+    }
+  ],
+  "physicalDevicesTested": false,
+  "legacy23PatchTest": "PASS",
+  "backendMigrationApplied": true
+}
