@@ -1,0 +1,61 @@
+{
+  "version": "4.21.1",
+  "published": true,
+  "releaseCommit": "f7e0c96a99a6ee4b8ca24550df5aca52537aa18a",
+  "verifiedUtc": "2026-10-29T09:55:43.4394737Z",
+  "stableFeedVerified": true,
+  "stableInstallerVerified": true,
+  "versionedAssets": [
+    {
+      "name": "PaklaHub-Kurulum.exe",
+      "url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.21.1/PaklaHub-Kurulum.exe",
+      "sha256": "1f49a332ac314a7e70f6194f27430d8d71385f8c0cb72aacceef175f561dfe5e",
+      "verified": true
+    },
+    {
+      "name": "PaklaHub-4.21.1.pakpatch",
+      "url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.21.1/PaklaHub-4.21.1.pakpatch",
+      "sha256": "bae2c7690821defdfc11869b1910118f3fb38c3ea95703f77a8cd83d4272d9b4",
+      "verified": true
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.21.1/SHA256SUMS.txt",
+      "sha256": "9731c05fa5bf6f310f886b404cc5de95ef4a36740024a6bac8eac6a78125ba04",
+      "verified": true
+    },
+    {
+      "name": "QUALITY-421.md",
+      "url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.21.1/QUALITY-421.md",
+      "sha256": "5a771cb5cdf28ba005e99e75c2275e31f7d2043dd5ada9514c942fcd511a5f9f",
+      "verified": true
+    },
+    {
+      "name": "Pakla-Ses-ve-Hafif-Calisma.png",
+      "url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.21.1/Pakla-Ses-ve-Hafif-Calisma.png",
+      "sha256": "4eda16adf58470d295d5dee5d284af351de46fca3c691a404443940079d5a67b",
+      "verified": true
+    }
+  ],
+  "captchaServerEnforced": true,
+  "captchaNativeWidget": "PASS",
+  "captchaMissingProofRejected": "PASS",
+  "captchaValidProofReachedCredentialValidation": "PASS",
+  "captchaSecretLocation": "Supabase Auth only",
+  "realUserCredentialsUsed": false,
+  "backendAbuseMigrationApplied": true,
+  "backendBudgetRollbackTest": "PASS",
+  "legacy23PatchCompatibility": "PASS",
+  "physicalDevicesTested": false,
+  "sourceDraftPublic": false,
+  "sourceDraftBuild": "PASS",
+  "remaining": [
+    "TURN/SFU",
+    "Public cloud clip feed and moderation",
+    "Screen-share audio",
+    "Spotify OAuth",
+    "Authenticode publisher certificate",
+    "Physical-device and cross-network load tests",
+    "Independent security audit and full DDoS/WAF deployment"
+  ]
+}
