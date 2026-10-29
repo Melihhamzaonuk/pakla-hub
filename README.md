@@ -1,15 +1,13 @@
 # Pakla Hub
 
-Güncel sürüm: **4.21.1**.
+Güncel sürüm: **4.23.0**.
 
 [Windows için indir](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)
 
-Mevcut kullanıcılar: Ayarlar → Güncellemeler → Güncelleme ara. Açılış denetimi yeni sürümü bildirir; yüklemeyi kullanıcı başlatır. Bot koruması etkindir; 4.20 ve daha eski sürümlerin yeniden giriş için güncellenmesi gerekir.
+**4.22 ve daha eski sürümler:** Ayarlar → Güncellemeler üzerinden 4.23'e geç veya yukarıdaki kurulumu çalıştır. **4.23 kurulduktan sonraki sürümler**, açılışta otomatik indirilir, RSA imzası doğrulanır ve yüklenir. Otomatik güncelleme tercihi Otomasyon bölümündedir. Ağ hatasında mevcut sürüm açılır.
 
-17 işlem sesi ve ayrı ses kontrolleri · 8 yayın kalitesi · Hafif çalışma ve azaltılmış hareket · DM/topluluk geçmişinde son mesaja git · Yerel klip oynatma ve orijinali koruyan kırpma · Sunucuda spam sınırları ve Turnstile.
+Tek pencere içinde temizlik ve düzenleme panelleri · DM/topluluklarda otomatik GIF · Yenilenen sunucu kapağı ve hızlı kategori geçişleri · Uygulama içi klip oynatıcı, sürüklenebilir kırpma ve aralık önizlemesi · Orijinali koruyan MP4 içe aktarma · Özgün Pakla açılış animasyonu ve büyütülmüş pencere · Oyun paneli ve isteğe bağlı eski geçici dosya temizliği.
 
-[Doğrulama ve açık işler](distribution/4.21.1/QUALITY-421.md) · [SHA-256](distribution/4.21.1/SHA256SUMS.txt)
+[Doğrulama ve sınırlar](distribution/4.23.0/QUALITY-423.md) · [SHA-256](distribution/4.23.0/SHA256SUMS.txt)
 
-![Sesler ve hafif çalışma](distribution/4.21.1/Pakla-Ses-ve-Hafif-Calisma.png)
-
-Ses/görüntü beta. TURN/SFU, ekran sesi, herkese açık bulut klip akışı ve Spotify OAuth tamamlanmadı. Tam DDoS veya sıfır veri sızıntısı garantisi verilmez. Kaynak kodu henüz yayımlanmadı.
+Ses/görüntü beta. TURN/SFU, ekran sesi, herkese açık bulut klip akışı ve Spotify OAuth tamamlanmadı. FPS ölçümü Windows ETW iznine bağlıdır. Windows Authenticode sertifikası yapılandırılmadı; patch RSA imzası ayrı mekanizmadır. Kaynak kodları herkese açık değildir.

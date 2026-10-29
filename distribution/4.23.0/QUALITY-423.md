@@ -1,6 +1,6 @@
-# Pakla Hub 4.23.0
+﻿# Pakla Hub 4.23.0
 
-Durum: Yerel kurulum ve RSA imzalı patch hazır. Genel güncelleme kanalı bu çalışma sırasında değiştirilmedi. Kurulu kullanıcı kopyası ve hesap verileri değiştirilmedi.
+Durum: Kurulum ve RSA imzalı patch 4.23.0 genel güncelleme kanalında yayımlandı. Dağıtım dosyaları indirilerek hash değerleri doğrulandı. Yayın işlemi kurulu kullanıcı kopyasını veya hesap verilerini değiştirmez.
 
 ## Düzeltilenler ve değişen akışlar
 

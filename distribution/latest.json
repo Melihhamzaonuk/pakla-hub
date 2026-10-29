@@ -1,6 +1,6 @@
 {
-    "Version":  "4.21.1",
-    "Url":  "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.21.1/PaklaHub-4.21.1.pakpatch",
-    "Sha256":  "bae2c7690821defdfc11869b1910118f3fb38c3ea95703f77a8cd83d4272d9b4",
-    "Notes":  "4.21.1: işlem sesleri, 8 yayın kalitesi, hafif çalışma, yerel klip oynatma/kırpma, DM/topluluk gezinmesi ve etkin bot koruması; dar ayar metinleri sadeleştirildi. Yeniden giriş için güncel sürüm gerekir."
+    "Version":  "4.23.0",
+    "Url":  "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.23.0/PaklaHub-4.23.0.pakpatch",
+    "Sha256":  "f94a0911079fe5aec44ca15e5e4a6c7d605d4309b7579079aa300cef5f8e5e05",
+    "Notes":  "4.23: Tek pencere içinde temizlik, profil ve düzenleme panelleri. DM ve topluluklarda otomatik görünen, önbellekli GIFler. Yenilenen sunucu kapağı ve hızlı kategori geçişleri. Uygulama içi klip stüdyosu, sürüklenebilir kırpma, aralık önizleme ve MP4 içe aktarma. Özgün Pakla açılışı, imza doğrulamalı otomatik açılış güncellemesi ve büyütülmüş ana pencere."
 }
