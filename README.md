@@ -1,13 +1,13 @@
 # Pakla Hub
 
-Güncel sürüm: **4.20.0**.
+Güncel sürüm: **4.21.0**.
 
 [Windows için indir](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)
 
-Mevcut kullanıcılar: Ayarlar → Güncellemeler → Güncelleme ara. Açılış denetimi yeni sürümü bildirir; yüklemeyi kullanıcı başlatır.
+Mevcut kullanıcılar: Ayarlar → Güncellemeler → Güncelleme ara. Açılış denetimi yeni sürümü bildirir; yüklemeyi kullanıcı başlatır. CAPTCHA koruması açıldıktan sonra yeniden giriş için güncel sürüm gerekir.
 
-4.20: mikrofon/kamera izin ve cihaz düzeltmeleri, sohbet içinde DM görüşmesi, ekran paylaşımı sürerken kaynak/kalite seçimi ve ayrı nick/@kullanıcı adı alanları.
+4.21: 17 kısa işlem sesi ve ayrı ses kontrolleri; sekiz yayın kalitesi; hafif çalışma ve azaltılmış hareket; DM/topluluk geçmişinde son mesaja git; yerel klip oynatma ve orijinali koruyan kırpma; Turnstile doğrulaması ve sunucuda spam sınırları.
 
-[Doğrulama ve sınırlar](distribution/4.20.0/QUALITY-420.md) · [SHA-256](distribution/4.20.0/SHA256SUMS.txt)
+[Doğrulama ve açık işler](distribution/4.21.0/QUALITY-421.md) · [SHA-256](distribution/4.21.0/SHA256SUMS.txt)
 
-Ses/görüntü beta; fiziksel cihaz ve farklı ağ testleri tamamlanmadı. TURN/SFU ve ekran sesi bulunmuyor. Kaynak kodu henüz yayımlanmadı.
+Ses/görüntü beta. TURN/SFU, ekran sesi, herkese açık bulut klip akışı ve Spotify OAuth tamamlanmadı. Tam DDoS veya sıfır veri sızıntısı garantisi verilmez. Kaynak kodu henüz yayımlanmadı.

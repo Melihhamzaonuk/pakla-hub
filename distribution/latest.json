@@ -1,6 +1,6 @@
 {
-    "Version":  "4.20.0",
-    "Url":  "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.20.0/PaklaHub-4.20.0.pakpatch",
-    "Sha256":  "f74e6da3b302e4fc8273fc5db14300c711d10b8dcc080f309cc19274464b17a2",
-    "Notes":  "4.20: mikrofon/kamera izin ve cihaz düzeltmeleri; sohbet içinde DM görüşmesi; ekran paylaşımında canlı kaynak ve kalite seçimi; serbest nick ve benzersiz @kullanıcı adı."
+    "Version":  "4.21.0",
+    "Url":  "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.21.0/PaklaHub-4.21.0.pakpatch",
+    "Sha256":  "4d56676820dedf850f078f70a83fa6fe82c570febdcd34b96d0df05d2cca09bf",
+    "Notes":  "4.21: işlem sesleri ve ayrı ses kontrolleri; 8 yayın kalitesi; hafif çalışma ve azaltılmış hareket; DM/topluluk son mesaja git; yerel klip oynatma ve kırpma; bot doğrulaması ve sunucu spam sınırları. Yeniden giriş için güncel sürüm gerekir."
 }
