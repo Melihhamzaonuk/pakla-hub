@@ -1,0 +1,22 @@
+{
+  "version": "4.23.0",
+  "status": "published-public-downloads-verified",
+  "applicationSelfTest": "pass",
+  "installerSelfTest": "pass",
+  "patchSelfTest": "pass",
+  "original23Compatibility": "pass",
+  "startupSignedPipeline": "pass-isolated",
+  "liveInstalledAutoUpdate": "not-run-installed-copy-unchanged",
+  "inlineWorkspace": "pass",
+  "gifRendererAndCache": "pass",
+  "klipyLiveCdn": "pass",
+  "clipImportTrimRange": "pass-synthetic-muted",
+  "communityRolesPermissions": "pass-fixture",
+  "dpi100And150": "pass",
+  "hashes": {
+    "PaklaHub-Kurulum.exe": "f0c6a728ffbebec3805547b177aafd1de223ef811e3c6d0e567177e08733e057",
+    "PaklaHub-4.23.0.pakpatch": "f94a0911079fe5aec44ca15e5e4a6c7d605d4309b7579079aa300cef5f8e5e05",
+    "PaklaHub.exe": "bf84b59b8880412366d6a76bb60230d752e67938203ff859bc260babd9b0256e"
+  },
+  "publicFeed": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/latest.json"
+}
