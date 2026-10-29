@@ -1,0 +1,55 @@
+{
+  "version": "4.21.0",
+  "published": true,
+  "releaseCommit": "2186841fb844240adf588b921a5666f863c48e22",
+  "verifiedUtc": "2026-10-29T09:47:35.6388492Z",
+  "stableFeedVerified": true,
+  "stableInstallerVerified": true,
+  "versionedAssets": [
+    {
+      "name": "PaklaHub-Kurulum.exe",
+      "url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.21.0/PaklaHub-Kurulum.exe",
+      "sha256": "dcd23761a7fdb10079641583add3e13cd7a63c033ef31557715c29b0246cbb06",
+      "verified": true
+    },
+    {
+      "name": "PaklaHub-4.21.0.pakpatch",
+      "url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.21.0/PaklaHub-4.21.0.pakpatch",
+      "sha256": "4d56676820dedf850f078f70a83fa6fe82c570febdcd34b96d0df05d2cca09bf",
+      "verified": true
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.21.0/SHA256SUMS.txt",
+      "sha256": "7c0dc23601aa1e57918cbbf23a2f56c281fcaeb7f89c8871f8205192372aef7b",
+      "verified": true
+    },
+    {
+      "name": "QUALITY-421.md",
+      "url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.21.0/QUALITY-421.md",
+      "sha256": "1a50ab51278effa182cb437b61d4e75153af39998a8c088041167e5ec89a7254",
+      "verified": true
+    }
+  ],
+  "captchaServerEnforced": true,
+  "captchaNativeWidget": "PASS",
+  "captchaMissingProofRejected": "PASS",
+  "captchaValidProofReachedCredentialValidation": "PASS",
+  "captchaSecretLocation": "Supabase Auth only",
+  "realUserCredentialsUsed": false,
+  "backendAbuseMigrationApplied": true,
+  "backendBudgetRollbackTest": "PASS",
+  "legacy23PatchCompatibility": "PASS",
+  "physicalDevicesTested": false,
+  "sourceDraftPublic": false,
+  "sourceDraftBuild": "PASS",
+  "remaining": [
+    "TURN/SFU",
+    "Public cloud clip feed and moderation",
+    "Screen-share audio",
+    "Spotify OAuth",
+    "Authenticode publisher certificate",
+    "Physical-device and cross-network load tests",
+    "Independent security audit and full DDoS/WAF deployment"
+  ]
+}
