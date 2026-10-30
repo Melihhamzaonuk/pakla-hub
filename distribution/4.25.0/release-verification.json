@@ -1,0 +1,20 @@
+{
+  "version": "4.25.0",
+  "commit": "72024a51df122f524f3f52a664dcc339020fab77",
+  "status": "pass",
+  "verified_utc": "2026-10-30T22:55:12.5679764Z",
+  "public_downloads": {
+    "PaklaHub-Kurulum.exe": {
+      "bytes": 9210368,
+      "sha256": "953d753226a89e1ce45054686d32e7a5feb2b5cff1ffad8432202b5b3fdd4c5f"
+    },
+    "4.25.0/PaklaHub-Kurulum.exe": {
+      "bytes": 9210368,
+      "sha256": "953d753226a89e1ce45054686d32e7a5feb2b5cff1ffad8432202b5b3fdd4c5f"
+    },
+    "4.25.0/PaklaHub-4.25.0.pakpatch": {
+      "bytes": 6042277,
+      "sha256": "2295ea4d3dd304a0b1bc4069769f6c7837d941993de0bf0f7c1e43aa1f280844"
+    }
+  }
+}
