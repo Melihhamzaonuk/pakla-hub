@@ -1,6 +1,6 @@
 {
-  "Version": "4.25.0",
-  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.25.0/PaklaHub-4.25.0.pakpatch",
-  "Sha256": "2295ea4d3dd304a0b1bc4069769f6c7837d941993de0bf0f7c1e43aa1f280844",
-  "Notes": "4.25: Video tanıtımlı modern kurulum; kurulumdan sonra otomatik kapanma; tek X tıklamasıyla güvenli çıkış. Yeni klip kütüphanesi ve zaman çizgisi, manuel Game Boost, Windows VPN profilleri ve yenilenen mesaj yazma alanı."
+  "Version": "4.27.0",
+  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.27.0/PaklaHub-4.27.0.pakpatch",
+  "Sha256": "5620a2c34562a24996c4eed655fd4baf8e614c690539a8d419a126b9ed7d0e72",
+  "Notes": "4.27: Simetrik simgeler ve temiz yuvarlak köşeler; düğme ve gezinme düzeltmeleri; filtreleri koruyan klip favorileri; yenilenen ana sayfa. X tepsiye küçültür, Tamamen çık ayrı kalır."
 }

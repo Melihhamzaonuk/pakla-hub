@@ -1,13 +1,15 @@
 # Pakla Hub
 
-Güncel sürüm: **4.25.0**.
+Güncel sürüm: **4.27.0**.
 
 [Windows için indir](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)
 
-Video tanıtımlı modern kurulum · Kurulum bitince otomatik kapanma · Tek X tıklamasıyla güvenli çıkış · Yenilenen klip kütüphanesi, koleksiyonlar ve süre cetvelli kırpma · Manuel Game Boost odak oturumu · Windows VPN profilleri · DM/topluluk yazma alanı iyileştirmeleri.
+Simetrik simgeler ve temiz yuvarlak köşeler · Düzeltilen klip menüleri ve filtreleri koruyan favoriler · Yenilenen ana sayfa · Dar ekranlarda sarılan işlem düğmeleri · Tepside çalışan Pakla · Mor/mint klip kütüphanesi · Windows VPN profil yönetimi · Video tanıtımlı modern kurulum.
 
-**4.23 ve sonrası kurulumlar**, açılışta güncellemeyi kontrol eder; paket RSA imzası ve SHA-256 doğrulandıktan sonra yüklenir. Otomatik güncelleme tercihi Otomasyon bölümündedir. Eski sürümler için yukarıdaki kurulum dosyası da kullanılabilir. Ağ hatasında mevcut sürüm açılır.
+X uygulamayı tepsiye küçültür; açık kayıt ve sohbet sürer. Tamamen çıkmak için tepsi menüsünü kullan.
 
-[Kurulum ekranı](distribution/4.25.0/kurulum.png) · [Tanıtım filmi](distribution/4.25.0/PaklaHub-Tanitim.mp4) · [Değişiklikler, doğrulama ve sınırlar](distribution/4.25.0/QUALITY-425.md) · [SHA-256](distribution/4.25.0/SHA256SUMS.txt)
+4.23 ve sonrası kurulumlar, açılışta güncellemeyi kontrol eder; RSA imzası ve SHA-256 doğrulandıktan sonra yükler. Tercih Otomasyon bölümündedir. Eski sürümler yukarıdaki kurulumu kullanabilir. Ağ hatasında mevcut sürüm açılır.
 
-Ses/görüntü beta. TURN/SFU, ekran sesi, herkese açık bulut klip akışı ve Spotify OAuth tamamlanmadı. FPS ölçümü Windows ETW iznine bağlıdır. Windows Authenticode sertifikası yapılandırılmadı; güncelleme RSA imzası ayrı mekanizmadır. Kaynak kodları herkese açık değildir.
+[Yeni görünüm](distribution/4.27.0/ana-sayfa.png) · [Değişiklikler ve test sınırları](distribution/4.27.0/QUALITY-427.md) · [Düğme denetimi](distribution/4.27.0/button-audit.txt) · [SHA-256](distribution/4.27.0/SHA256SUMS.txt)
+
+Canlı iki hesapla mesajlaşma ve gerçek VPN bağlantısı bu sürüm çalışmasında uçtan uca denenmedi. VPN hizmeti/sunucusu verilmez; mevcut Windows profilleri yönetilir. Windows Authenticode sertifikası yapılandırılmadı; güncelleme RSA imzası ayrı mekanizmadır. Kaynak kodları herkese açık değildir.

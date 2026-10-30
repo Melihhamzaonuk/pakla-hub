@@ -1,0 +1,1 @@
+PASS: actual WebView2 star click crossed the native bridge, persisted the favorite and updated the same gallery without losing query or sort. Isolated metadata; no personal clips accessed.

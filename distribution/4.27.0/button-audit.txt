@@ -1,0 +1,1 @@
+PASS: 105 page/width combinations, 3963 button occurrences inventoried, 106 safe button clicks. Hidden/disabled actions and external/destructive/account operations are identified separately in the TSV; this is not a claim that every live service action passed.

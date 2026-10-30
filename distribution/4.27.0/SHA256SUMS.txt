@@ -1,0 +1,2 @@
+b1be0179a4d8fc9a18afc267f7b540b5ecd562bbd85fb76909ae13421ea7afce  PaklaHub-Kurulum.exe
+5620a2c34562a24996c4eed655fd4baf8e614c690539a8d419a126b9ed7d0e72  PaklaHub-4.27.0.pakpatch

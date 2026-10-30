@@ -1,0 +1,1 @@
+PASS: 9 rounded button types, four corners each, at 96/144 DPI match the actual gradient underneath (72 pixel checks). Oversized corner radius and zero-radius shape guards passed. Parent background painting and centered 20-unit toolbar icons verified visually in generated sheets.
