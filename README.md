@@ -1,13 +1,13 @@
 # Pakla Hub
 
-Güncel sürüm: **4.23.0**.
+Güncel sürüm: **4.25.0**.
 
 [Windows için indir](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)
 
-**4.22 ve daha eski sürümler:** Ayarlar → Güncellemeler üzerinden 4.23'e geç veya yukarıdaki kurulumu çalıştır. **4.23 kurulduktan sonraki sürümler**, açılışta otomatik indirilir, RSA imzası doğrulanır ve yüklenir. Otomatik güncelleme tercihi Otomasyon bölümündedir. Ağ hatasında mevcut sürüm açılır.
+Video tanıtımlı modern kurulum · Kurulum bitince otomatik kapanma · Tek X tıklamasıyla güvenli çıkış · Yenilenen klip kütüphanesi, koleksiyonlar ve süre cetvelli kırpma · Manuel Game Boost odak oturumu · Windows VPN profilleri · DM/topluluk yazma alanı iyileştirmeleri.
 
-Tek pencere içinde temizlik ve düzenleme panelleri · DM/topluluklarda otomatik GIF · Yenilenen sunucu kapağı ve hızlı kategori geçişleri · Uygulama içi klip oynatıcı, sürüklenebilir kırpma ve aralık önizlemesi · Orijinali koruyan MP4 içe aktarma · Özgün Pakla açılış animasyonu ve büyütülmüş pencere · Oyun paneli ve isteğe bağlı eski geçici dosya temizliği.
+**4.23 ve sonrası kurulumlar**, açılışta güncellemeyi kontrol eder; paket RSA imzası ve SHA-256 doğrulandıktan sonra yüklenir. Otomatik güncelleme tercihi Otomasyon bölümündedir. Eski sürümler için yukarıdaki kurulum dosyası da kullanılabilir. Ağ hatasında mevcut sürüm açılır.
 
-[Doğrulama ve sınırlar](distribution/4.23.0/QUALITY-423.md) · [SHA-256](distribution/4.23.0/SHA256SUMS.txt)
+[Kurulum ekranı](distribution/4.25.0/kurulum.png) · [Tanıtım filmi](distribution/4.25.0/PaklaHub-Tanitim.mp4) · [Değişiklikler, doğrulama ve sınırlar](distribution/4.25.0/QUALITY-425.md) · [SHA-256](distribution/4.25.0/SHA256SUMS.txt)
 
-Ses/görüntü beta. TURN/SFU, ekran sesi, herkese açık bulut klip akışı ve Spotify OAuth tamamlanmadı. FPS ölçümü Windows ETW iznine bağlıdır. Windows Authenticode sertifikası yapılandırılmadı; patch RSA imzası ayrı mekanizmadır. Kaynak kodları herkese açık değildir.
+Ses/görüntü beta. TURN/SFU, ekran sesi, herkese açık bulut klip akışı ve Spotify OAuth tamamlanmadı. FPS ölçümü Windows ETW iznine bağlıdır. Windows Authenticode sertifikası yapılandırılmadı; güncelleme RSA imzası ayrı mekanizmadır. Kaynak kodları herkese açık değildir.
