@@ -1,6 +1,6 @@
 # Pakla Hub
 
-Güncel sürüm: **4.27.0**.
+Güncel sürüm: **4.27.1**.
 
 [Windows için indir](https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/PaklaHub-Kurulum.exe)
 
@@ -10,6 +10,6 @@ X uygulamayı tepsiye küçültür; açık kayıt ve sohbet sürer. Tamamen çı
 
 4.23 ve sonrası kurulumlar, açılışta güncellemeyi kontrol eder; RSA imzası ve SHA-256 doğrulandıktan sonra yükler. Tercih Otomasyon bölümündedir. Eski sürümler yukarıdaki kurulumu kullanabilir. Ağ hatasında mevcut sürüm açılır.
 
-[Yeni görünüm](distribution/4.27.0/ana-sayfa.png) · [Değişiklikler ve test sınırları](distribution/4.27.0/QUALITY-427.md) · [Düğme denetimi](distribution/4.27.0/button-audit.txt) · [SHA-256](distribution/4.27.0/SHA256SUMS.txt)
+[Yeni görünüm](distribution/4.27.1/kitaplik.png) · [Değişiklikler ve test sınırları](distribution/4.27.0/QUALITY-427.md) · [Düğme denetimi](distribution/4.27.0/button-audit.txt) · [SHA-256](distribution/4.27.1/SHA256SUMS.txt)
 
 Canlı iki hesapla mesajlaşma ve gerçek VPN bağlantısı bu sürüm çalışmasında uçtan uca denenmedi. VPN hizmeti/sunucusu verilmez; mevcut Windows profilleri yönetilir. Windows Authenticode sertifikası yapılandırılmadı; güncelleme RSA imzası ayrı mekanizmadır. Kaynak kodları herkese açık değildir.

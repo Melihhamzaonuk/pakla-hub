@@ -1,6 +1,6 @@
 {
-  "Version": "4.27.0",
-  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.27.0/PaklaHub-4.27.0.pakpatch",
-  "Sha256": "5620a2c34562a24996c4eed655fd4baf8e614c690539a8d419a126b9ed7d0e72",
-  "Notes": "4.27: Simetrik simgeler ve temiz yuvarlak köşeler; düğme ve gezinme düzeltmeleri; filtreleri koruyan klip favorileri; yenilenen ana sayfa. X tepsiye küçültür, Tamamen çık ayrı kalır."
+  "Version": "4.27.1",
+  "Url": "https://raw.githubusercontent.com/nikolaspay/pakla-hub/main/distribution/4.27.1/PaklaHub-4.27.1.pakpatch",
+  "Sha256": "fbf150b0eea9de8dc72e82a2e0fda411dfd5d5b28c52772a9d8c162e17008aed",
+  "Notes": "4.27.1 acil düzeltme: üst üste biriken menü yazıları ve siyah köşe blokları giderildi. Üst panelin tümünü yeniden çizme kaldırıldı; arka planlar ayrı çizilir."
 }
